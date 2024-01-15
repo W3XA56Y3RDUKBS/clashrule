@@ -1,0 +1,378 @@
+mode: Rule
+log-level: error
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+hosts:
+  mtalk.google.com: 108.177.125.188
+ipv6: true
+dns:
+  enable: true
+  listen: 127.0.0.1:5335
+  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
+  ipv6: true
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
+  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
+  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32, 183.192.65.101/32], domain: [+.google.cn, +.paoluz.com, +.paoluz.link, +.paoluz.xyz, +.sodacity-funk.xyz, +.nloli.xyz, +.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
+
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+global-client-fingerprint: chrome
+profile:
+  store-selected: true
+unified-delay: true
+tcp-concurrent: true
+
+proxies:
+- name: HOME-CloudFlare
+  server: 192.168.5.100
+  port: 7890
+  type: socks5
+  skip-cert-verify: true
+  udp: true
+
+proxy-groups:
+
+- name: 🌏 Proxy
+  type: select
+  proxies:
+    - DIRECT
+    - HOME-CloudFlare
+  use:
+    - nxboom
+    - paoluz
+    
+- name: 🔮 TikTok
+  type: url-test
+  filter: (?!.*\[)(日|台|Japan|Taiwan)
+  proxies:
+  use:
+    - nxboom
+    - paoluz
+  tolerance: 150
+  lazy: true
+  url: 'https://www.tiktok.com/'
+  interval: 300
+
+- name: 🎥 Netflix
+  type: select
+  filter: (港|日|美|新|台|Singapore|Hong Kong|USA|Japan)
+  proxies:
+  use:
+    - nxboom
+    - paoluz
+
+- name: 🎥 Disney
+  type: select
+  filter: (港|日|美|新|台|Singapore|Hong Kong|USA|Japan)
+  proxies:
+  use:
+    - nxboom
+    - paoluz
+
+- name: 📺 Youtube
+  type: select
+  proxies:
+    - 🌏 Proxy
+  use:
+    - nxboom
+    - paoluz
+
+- name: 📺 Telegram
+  type: select
+  proxies:
+    - 🌏 Proxy
+  use:
+    - nxboom
+    - paoluz
+
+- name: Ⓜ️ 微软云盘
+  type: select
+  proxies:
+    - DIRECT
+    - 🌏 Proxy
+
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+    - DIRECT
+    - 🌏 Proxy
+  use:
+    - nxboom
+
+- name: ⚙️ OpenAi
+  type: select
+  filter: (新|Singapore)
+  proxies:
+  use:
+    - nxboom
+    - paoluz
+
+- name: 🎮 游戏平台
+  type: select
+  proxies:
+    - DIRECT
+    - 🌏 Proxy
+
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+    - 🌏 Proxy
+    - DIRECT
+
+
+proxy-providers:
+  nxboom:
+    type: http
+    url: "xxx"
+    interval: 3600
+    path: ./nxboom.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  paoluz:
+    type: http
+    url: "xxx"
+    interval: 3600
+    path: ./paoluz.yaml
+    filter: (?!.*\[)
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+
+
+rule-providers:
+
+  Adblock:
+    behavior: domain
+    type: http
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    format: yaml
+    interval: 43200
+    path: ./adblock.yaml
+
+  AD:
+    behavior: domain
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/AD.yaml"
+    format: yaml
+    interval: 43200
+    path: ./AD.yaml
+
+  Apple:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Apple.yaml"
+    interval: 43200
+    path: ./Apple.yaml
+  
+  AppleNews:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml"
+    interval: 43200
+    path: ./AppleNews.yaml
+  
+  AppleTV:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml"
+    interval: 43200
+    path: ./AppleTV.yaml
+  
+  CN:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/CN.yaml"
+    interval: 43200
+    path: ./CN.yaml
+
+
+  CNipcidr:
+    behavior: "ipcidr"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/CN_ipcidr.yaml"
+    interval: 43200
+    path: ./CNipcidr.yaml
+
+
+  Disney:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Disney.yaml"
+    interval: 43200
+    path: ./Disney.yaml
+
+
+  Download:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Download.yaml"
+    interval: 43200
+    path: ./Download.yaml
+
+  Game:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Game.yaml"
+    interval: 43200
+    path: ./Game.yaml
+
+
+  LocalAreaNetwork:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    interval: 43200
+    path: ./LocalAreaNetwork.yaml
+
+
+  Microsoft:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
+    interval: 43200
+    path: ./Microsoft.yaml
+
+
+  Netflix:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Netflix.yaml"
+    interval: 43200
+    path: ./Netflix.yaml
+  
+
+  OneDrive:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    interval: 43200
+    path: ./OneDrive.yaml
+  
+
+  openAI:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/openAI.yaml"
+    interval: 43200
+    path: ./openAI.yaml
+
+
+  proxy:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/proxy.yaml"
+    interval: 43200
+    path: ./proxy.yaml
+
+
+  Telegram:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Telegram.yaml"
+    interval: 43200
+    path: ./Telegram.yaml
+
+
+  TikTok:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml"
+    interval: 43200
+    path: ./TikTok.yaml
+
+
+  UnBan:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    interval: 43200
+    path: ./UnBan.yaml
+
+
+  Youtube:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/main/Youtube.yaml"
+    interval: 43200
+    path: ./Youtube.yaml
+
+
+  广告规则(By Loyalsoldier):
+    behavior: domain
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    interval: 43200
+    path: ./RejectAD_Loyalsoldier.yaml
+
+
+
+  
+rules:
+# 局域网
+  - RULE-SET,LocalAreaNetwork,DIRECT
+# 规则更新
+  - DOMAIN-SUFFIX,githubusercontent.com,🌏 Proxy
+# Zerotier
+  - DST-PORT,9993,DIRECT
+  - SRC-PORT,9993,DIRECT
+# 广告拦截
+  - RULE-SET,UnBan,DIRECT
+  - RULE-SET,Adblock,REJECT
+  - RULE-SET,AD,REJECT
+  - RULE-SET,广告规则(By Loyalsoldier),REJECT
+  - GEOSITE,category-ads-all,REJECT
+# 国内加速
+  - RULE-SET,CN,DIRECT
+  - RULE-SET,CNipcidr,DIRECT
+  - RULE-SET,Download,DIRECT
+
+  - RULE-SET,openAI,⚙️ OpenAi
+  - GEOSITE,openai,⚙️ OpenAi
+# 微软
+  - DOMAIN-SUFFIX,msftncsi.com,🌏 Proxy
+  - DOMAIN-SUFFIX,msftconnecttest.com,🌏 Proxy
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+# 苹果
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,AppleNews,🌏 Proxy
+  - RULE-SET,AppleTV,🌏 Proxy
+# 视频
+  - RULE-SET,Netflix,🎥 Netflix
+  - GEOSITE,netflix,🎥 Netflix
+  - GEOIP,netflix,🎥 Netflix
+  - RULE-SET,Disney,🎥 Disney
+  - GEOSITE,disney,🎥 Disney
+  - RULE-SET,TikTok,🔮 TikTok
+  - GEOSITE,tiktok,🔮 TikTok
+  - DOMAIN-SUFFIX,emby.wtf,📺 Youtube
+  - RULE-SET,Telegram,📺 Telegram
+  - GEOSITE,telegram,📺 Telegram
+  - GEOIP,telegram,📺 Telegram
+  - RULE-SET,Youtube,📺 Youtube
+  - GEOSITE,youtube,📺 Youtube
+# 游戏
+  - RULE-SET,Game,🎮 游戏平台
+# 代理
+  - RULE-SET,proxy,🌏 Proxy
+# DIRECT
+  - GEOSITE,CN,DIRECT
+  - GEOIP,CN,DIRECT
+  - PROCESS-NAME,zerotier-one,DIRECT
+# MATCH
+  - MATCH,🐟 漏网之鱼
