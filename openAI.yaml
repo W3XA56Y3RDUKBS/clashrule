@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,sentry.io
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,featuregates.org
-  # > ChatGPT
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > Claude
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  # 数量：15条
   - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # > New Bing
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,chatgpt.com
-  # > Bard
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
+  # > ChatGPT
+  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,oaistatic.com
+  # 内容：OpenAi
+  - DOMAIN,openaiapi-site.azureedge.net
+  # 数量：15条
+  # > New Bing
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  # > Claude
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,featuregates.org
+  # > Bard
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
