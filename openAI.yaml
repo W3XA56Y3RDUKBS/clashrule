@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
   # > ChatGPT
+  - DOMAIN-SUFFIX,bingapis.com
+  # > Bard
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,openai.com
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN,bard.google.com
   - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,oaistatic.com
-  # 内容：OpenAi
-  - DOMAIN,openaiapi-site.azureedge.net
-  # 数量：15条
-  # > New Bing
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  # > Claude
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,featuregates.org
-  # > Bard
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  # > Chat GPT API & CDN
+  # > Claude
+  # > New Bing
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  # 数量：15条
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN,bard.google.com
