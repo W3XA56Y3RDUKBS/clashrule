@@ -1,69 +1,69 @@
 payload:
 
-  - DOMAIN,youtubei.googleapis.com
-  # 数量：3条
-  - DOMAIN-SUFFIX,bcvcdn.com
-  - DOMAIN-SUFFIX,jable.tv
-  # 数量：23条
-  - DOMAIN-SUFFIX,missav.com
-  - DOMAIN-SUFFIX,xvideos-cdn.com
-  
-  - DOMAIN-SUFFIX,spankbang.com
-  # 内容：PornAsia
-  - DOMAIN-SUFFIX,t66y.com
-  # USER-AGENT,com.google.ios.youtube*
-  # USER-AGENT,*youtube*
-  - DOMAIN-SUFFIX,ext-twitch.tv
-  - DOMAIN-SUFFIX,twitchcdn.net
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,pornhubpremium.com
-  - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,chaturbate.com
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,phprcdn.com
-  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,phncdn.com
+  # 内容：YouTube
   - DOMAIN-SUFFIX,fanbox.cc
+  - DOMAIN-SUFFIX,ypncdn.com
+  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ext-twitch.tv
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,bcvcdn.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,xnxx-cdn.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,twitchcdn.net
+  # 数量：7条
+  # 数量：23条
+  - DOMAIN-SUFFIX,withyoutube.com
+  # USER-AGENT,com.google.ios.youtube*
+  - DOMAIN-SUFFIX,8teenxxx.com
+  - DOMAIN-SUFFIX,netflav.com
+  # 数量：17条
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  # 内容：Pixiv
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,t66y.com
   # 数量：4条
   # 内容：Twitch
-  - DOMAIN-SUFFIX,ytimg.com
-  # > Pornhub
-  - DOMAIN-SUFFIX,pximg.net
-  - DOMAIN-SUFFIX,ypncdn.com
-  # 数量：17条
-  - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-SUFFIX,8teenxxx.com
-  # 内容：Porn
+  - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,netflav.com
-  - DOMAIN-SUFFIX,redtube.com
-  - DOMAIN-SUFFIX,withyoutube.com
-  - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,pximg.net
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-KEYWORD,porn
+  # 内容：Porn
+  
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,ttvnw.net
+  # USER-AGENT,YouTube*
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN-SUFFIX,rdtcdn.com
   # 内容：Pornhub
   - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,rdtcdn.com
-  - DOMAIN-KEYWORD,ttvnw
-  - DOMAIN-SUFFIX,bongacams.com
-  # 内容：YouTube
-  - DOMAIN,yt3.ggpht.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,pixiv.net
-  - DOMAIN-SUFFIX,youtubegaming.com
-  - DOMAIN-SUFFIX,xhamster.com
-  # USER-AGENT,YouTube*
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,javdb.com
-  - DOMAIN-SUFFIX,livejasmin.com
-  - DOMAIN-SUFFIX,youtube-nocookie.com
   - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xnxx-cdn.com
-  # 数量：7条
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
-  # 内容：Pixiv
-  - DOMAIN-KEYWORD,porn
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  # 数量：3条
+  - DOMAIN-SUFFIX,xvideos-cdn.com
+  # > Pornhub
+  # USER-AGENT,*youtube*
+  - DOMAIN-SUFFIX,missav.com
+  # 内容：PornAsia
