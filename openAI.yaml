@@ -1,37 +1,37 @@
 payload:
 
-  # > New Bing
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN,openaiapi-site.azureedge.net
-  # 数量：15条
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,claude.ai
-  # > ChatGPT
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  # > New Bing
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,auth0.com
+  # > Chat GPT API & CDN
+  # 内容：OpenAi
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  # > Claude
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,featuregates.org
+  # 数量：15条
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  # > ChatGPT
   # > Bard
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  # 内容：OpenAi
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,stripe.com
-  # > Claude
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
