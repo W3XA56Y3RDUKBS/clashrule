@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  # > ChatGPT
-  - DOMAIN,production-openaicom-storage.azureedge.net
+  # 内容：OpenAi
   - DOMAIN-SUFFIX,chatgpt.com
+  # > ChatGPT
+  - DOMAIN-KEYWORD,openai
+  # > Bard
   - DOMAIN-SUFFIX,intercomcdn.com
+  # 数量：15条
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,sentry.io
-  # > Chat GPT API & CDN
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,identrust.com
-  # > Claude
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,auth0.com
   # > New Bing
-  - DOMAIN-SUFFIX,ai.com
-  # 数量：15条
-  # > Bard
-  - DOMAIN-SUFFIX,bingapis.com
+  # > Claude
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,bard.google.com
+  # > Chat GPT API & CDN
