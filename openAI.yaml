@@ -1,37 +1,37 @@
 payload:
 
+  # > ChatGPT
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,claude.ai
+  # 内容：OpenAi
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-KEYWORD,openai
+  # > Bard
+  - DOMAIN-SUFFIX,openai.com
+  # > New Bing
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   # 数量：15条
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,identrust.com
-  # > ChatGPT
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,openai.com
-  # > Bard
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,bing.com
   # > Claude
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # > New Bing
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,featuregates.org
