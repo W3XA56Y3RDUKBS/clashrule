@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,auth0.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  # > Bard
-  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > New Bing
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # 内容：OpenAi
-  # 数量：15条
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,bingapis.com
   # > Claude
-  - DOMAIN,bard.google.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-KEYWORD,openai
+  # > Bard
+  # 内容：OpenAi
+  - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,featuregates.org
-  # > ChatGPT
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  # > ChatGPT
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
+  # 数量：15条
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # > New Bing
+  # > Chat GPT API & CDN
