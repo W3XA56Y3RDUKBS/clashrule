@@ -1,37 +1,37 @@
 payload:
 
-  # > Claude
-  - DOMAIN-SUFFIX,bingapis.com
-  # > New Bing
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,identrust.com
   # 内容：OpenAi
+  # > Claude
   # > ChatGPT
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,sentry.io
-  # > Bard
+  - DOMAIN-SUFFIX,ai.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,intercom.io
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,anthropic.com
+  # > New Bing
+  - DOMAIN-SUFFIX,sentry.io
+  # 数量：15条
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,bard.google.com
+  # > Bard
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,oaistatic.com
