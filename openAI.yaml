@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  # > Claude
-  - DOMAIN-SUFFIX,openai.com
-  # 数量：15条
-  # > New Bing
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  # 内容：OpenAi
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,bard.google.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  # > Bard
   # > ChatGPT
-  # > Chat GPT API & CDN
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  # 数量：15条
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,claude.ai
+  # 内容：OpenAi
+  # > Claude
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,bing.com
+  # > Bard
   - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-KEYWORD,openai
+  # > New Bing
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,openaiapi-site.azureedge.net
