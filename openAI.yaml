@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # > Chat GPT API & CDN
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,stripe.com
-  # > New Bing
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  # 内容：OpenAi
-  # 数量：15条
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,oaistatic.com
-  # > Bard
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN,bard.google.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
   # > Claude
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,bingapis.com
-  # > ChatGPT
-  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
+  # 数量：15条
+  # > New Bing
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  # 内容：OpenAi
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # > Bard
+  # > ChatGPT
+  # > Chat GPT API & CDN
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
