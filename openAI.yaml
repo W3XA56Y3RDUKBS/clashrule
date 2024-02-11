@@ -1,37 +1,37 @@
 payload:
 
-  # > Claude
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  # > Bard
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # > ChatGPT
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  # > New Bing
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,chatgpt.com
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,identrust.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,claude.ai
+  # > ChatGPT
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
   # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  # > Claude
+  # > Bard
+  # 内容：OpenAi
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  # 数量：15条
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  # > New Bing
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN,bard.google.com
