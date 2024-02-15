@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,intercom.io
-  # > ChatGPT
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,sentry.io
-  # > Chat GPT API & CDN
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,openai.com
-  # > Claude
-  # > New Bing
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN-SUFFIX,identrust.com
-  # > Bard
-  # 内容：OpenAi
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  # > New Bing
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  # 数量：15条
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,bingapis.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,chatgpt.com
+  # > Bard
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  # > Claude
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  # > ChatGPT
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,anthropic.com
-  # 数量：15条
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,featuregates.org
