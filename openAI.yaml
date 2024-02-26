@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-KEYWORD,openai
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,intercomcdn.com
   # > Claude
-  # > Bard
-  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,stripe.com
+  # > ChatGPT
+  # 数量：15条
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,bard.google.com
+  # > New Bing
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,ai.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN-SUFFIX,intercom.io
-  # 内容：OpenAi
-  # > New Bing
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN,bard.google.com
-  # > Chat GPT API & CDN
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,ai.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,openai.com
-  # > ChatGPT
   - DOMAIN-SUFFIX,oaiusercontent.com
+  # > Bard
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
