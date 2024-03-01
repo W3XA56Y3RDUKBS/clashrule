@@ -1,37 +1,37 @@
 payload:
 
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  # > Chat GPT API & CDN
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,openai.com
-  # > New Bing
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  # 内容：OpenAi
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,identrust.com
-  # > ChatGPT
-  - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,bingapis.com
-  # > Bard
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,stripe.com
-  # > Claude
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # > Bard
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,anthropic.com
+  # > Claude
+  - DOMAIN,bard.google.com
+  # > Chat GPT API & CDN
+  # > ChatGPT
   - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,bing.com
+  # > New Bing
   # 数量：15条
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
