@@ -80,16 +80,36 @@ def main():
     urls_CN = [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ChinaDNS.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PublicDirectCDN.yaml",
-        #"https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/accCN.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AccelerateDirectSites.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ChinaNet.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
         "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/vpn.yaml",
-        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/weishi_direct.yaml"
+        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/weishi_direct.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ChinaNet.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Apple.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xunlei.yaml"
+        #"https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/accCN.yaml",
+        #"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml",
+        #"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    ]
+
+    urls_CN_beta = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ChinaOneKeyLogin.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Iqiyi.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TencentVideo.yaml",
+        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/weishi_direct.yaml",
+        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/vpn.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml"
     ]
 
     urls_CN_ipcidr = [
@@ -97,13 +117,6 @@ def main():
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaIp.yaml"
     ]
 
-    urls_Download = [
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xunlei.yaml"
-    ]
 
     urls_Disney = [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DisneyPlus.yaml",
@@ -128,7 +141,9 @@ def main():
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PornAsia.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Pornhub.yaml",
         "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Pornhub.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Twitch.yaml"
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Twitch.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml"
     ]
 
     urls_proxy = [
@@ -138,7 +153,11 @@ def main():
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Github.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml",
-        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/weishi_acc.yaml"
+        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/weishi_acc.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
+        "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml"
     ]
 
     urls_openAI = [
@@ -148,7 +167,9 @@ def main():
 
     urls_Game = [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml"
+        "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml"
     ]
 
     urls_AD = [
@@ -158,13 +179,43 @@ def main():
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml",
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml",
         "https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Reject.yaml",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/MIUIPrivacy.yaml"
     ]
+
+    url_anti_ad = [
+        "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml",
+        "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    ]
+    url_emailbox = [
+        "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/emailbox.yaml"
+    ]
+
+    url_LocalAreaNetwork = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    ]
+
+    url_Microsoft = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
+    ]
+
+    url_OneDrive = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    ]
+
+    url_TikTok = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml"
+    ]
+
+    url_UnBan = [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    ]
+
 
     # 合并数据
     categories = {
         'CN': urls_CN,
+        'CN_beta': urls_CN_beta,
         'CN_ipcidr': urls_CN_ipcidr,
-        'Download': urls_Download,
         'Disney': urls_Disney,
         'Netflix': urls_Netflix,
         'Telegram': urls_Telegram,
@@ -172,7 +223,15 @@ def main():
         'proxy': urls_proxy,
         'openAI': urls_openAI,
         'Game': urls_Game,
-        'AD': urls_AD
+        'AD': urls_AD,
+        'anti_ad': url_anti_ad,
+        'emailbox': url_emailbox,
+        'LocalAreaNetwork': url_LocalAreaNetwork,
+        'Microsoft': url_Microsoft,
+        'OneDrive': url_OneDrive,
+        'pdr': url_pdr,
+        'TikTok': url_TikTok,
+        'UnBan': url_UnBan
     }
 
     for category, urls in categories.items():
