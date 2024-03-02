@@ -229,7 +229,6 @@ def main():
         'LocalAreaNetwork': url_LocalAreaNetwork,
         'Microsoft': url_Microsoft,
         'OneDrive': url_OneDrive,
-        'pdr': url_pdr,
         'TikTok': url_TikTok,
         'UnBan': url_UnBan
     }
