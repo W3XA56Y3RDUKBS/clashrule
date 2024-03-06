@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > Chat GPT API & CDN
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  # > New Bing
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # 数量：15条
-  - DOMAIN-SUFFIX,openai.com
-  # > ChatGPT
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  # > Claude
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,identrust.com
+  # > Claude
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # 内容：OpenAi
   - DOMAIN-KEYWORD,openai
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,bard.google.com
+  - DOMAIN-SUFFIX,ai.com
+  # > New Bing
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  # 数量：15条
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,bingapis.com
   # > Bard
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,featuregates.org
+  # > ChatGPT
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN,bard.google.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,featuregates.org
