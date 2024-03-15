@@ -1,37 +1,37 @@
 payload:
 
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
   # 内容：OpenAi
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,openai.com
   # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,chatgpt.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   # > New Bing
   # > Claude
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  # > ChatGPT
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  # > Gemini
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  # > ChatGPT
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  # > Gemini
+  # 数量：15条
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
