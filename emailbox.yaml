@@ -1,15 +1,15 @@
 payload:
 
-  - DOMAIN-SUFFIX,dashi.163.com
-  - DST-PORT,993
-  - DOMAIN-KEYWORD,mail
-  - IP-CIDR,60.191.83.4/24
-  - SRC-PORT,993
-  - IP-CIDR,111.124.200.11/24
-  - DOMAIN-SUFFIX,mail.163.com
-  - DOMAIN-SUFFIX,smtp.office365.com
-  - IP-CIDR,111.124.200.5/24
   - IP-CIDR,220.181.14.171/24
-  - AND,((DOMAIN,Microsoft),(OR,((DST-PORT,993),(SRC-PORT,993))))
-  - DOMAIN-SUFFIX,outlook.office365.com
+  - IP-CIDR,111.124.200.5/24
+  - SRC-PORT,993
+  - DOMAIN-KEYWORD,mail
+  - DOMAIN-SUFFIX,dashi.163.com
   - IP-CIDR,101.71.155.76/24
+  - IP-CIDR,60.191.83.4/24
+  - DOMAIN-SUFFIX,outlook.office365.com
+  - DOMAIN-SUFFIX,mail.163.com
+  - DST-PORT,993
+  - DOMAIN-SUFFIX,smtp.office365.com
+  - IP-CIDR,111.124.200.11/24
+  - AND,((DOMAIN,Microsoft),(OR,((DST-PORT,993),(SRC-PORT,993))))

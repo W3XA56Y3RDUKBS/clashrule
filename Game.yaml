@@ -1,42 +1,42 @@
 payload:
-
-  - DOMAIN-SUFFIX,steam-chat.com
-  # > Steam
-  # 数量：18条
-  - DOMAIN,steampipe.akamaized.net
-  # 内容：Sony
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,xboxab.net
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,playstationnetwork.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,steampowered.com
-  # - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,xboxservices.com
-  - DOMAIN-SUFFIX,steamgames.com
-  # 内容：xbox
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,playartifact.com
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,steamserver.net
-  - DOMAIN-SUFFIX,xboxab.com
-  # 内容：Steam
-  - DOMAIN-SUFFIX,valvesoftware.com
-  - DOMAIN-SUFFIX,xboxservice.com
-  # 数量：5条
-  - DOMAIN,steambroadcast.akamaized.net
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  - DOMAIN-SUFFIX,s.team
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,gamepass.com
-  - DOMAIN-SUFFIX,humblebundle.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-  - DOMAIN,steamstore-a.akamaihd.net
   # 数量：6条
-  - DOMAIN-SUFFIX,underlords.com
+  - DOMAIN-SUFFIX,xboxab.com
+
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  # 内容：Steam
+  - DOMAIN-SUFFIX,xboxservice.com
   - DOMAIN-SUFFIX,fanatical.com
+  # 数量：5条
+  - DOMAIN-SUFFIX,xbox.com
+  # - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,gamepass.com
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,xboxab.net
+  - DOMAIN-SUFFIX,steamstatic.com
+  # 内容：xbox
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,underlords.com
+  # > Steam
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  # 数量：18条
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  # 内容：Sony
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,steamserver.net
