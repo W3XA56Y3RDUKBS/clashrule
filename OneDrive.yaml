@@ -1,21 +1,21 @@
 payload:
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,storage.msn.com
-  - DOMAIN-SUFFIX,photos.live.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,oneclient.sfx.ms
-  # 内容：OneDrive
-  # PROCESS-NAME,OneDrive
-  - DOMAIN-KEYWORD,skydrive
-  # PROCESS-NAME,OneDriveUpdater
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-SUFFIX,sharepointonline.com
-  # 数量：18条
-  # USER-AGENT,OneDriveiOSApp*
-  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-KEYWORD,onedrive
   - DOMAIN-SUFFIX,skydrive.wns.windows.com
-  # USER-AGENT,OneDrive*
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,sharepoint.com
+  # 内容：OneDrive
+  - DOMAIN-SUFFIX,storage.live.com
+  # PROCESS-NAME,OneDriveUpdater
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  # PROCESS-NAME,OneDrive
+  - DOMAIN-KEYWORD,1drv
+  # 数量：18条
+  - DOMAIN-KEYWORD,onedrive
+  # USER-AGENT,OneDriveiOSApp*
+  # USER-AGENT,OneDrive*
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,photos.live.com
