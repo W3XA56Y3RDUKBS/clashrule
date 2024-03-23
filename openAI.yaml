@@ -1,38 +1,38 @@
 payload:
 
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  # 内容：OpenAi
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,sentry.io
-  # > Copilot
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,openai.com
-  # > ChatGPT
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,intercomcdn.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
+  # > Chat GPT API & CDN
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  # > Copilot
   # > Gemini
-  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,featuregates.org
+  # > ChatGPT
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openai.com
   # > Claude
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  # 数量：15条
