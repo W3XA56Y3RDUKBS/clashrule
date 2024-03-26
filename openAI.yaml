@@ -1,38 +1,38 @@
 payload:
 
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  # > ChatGPT
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  # > Claude
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,sentry.io
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,gemini.google.com
   # > Copilot
   # 数量：15条
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  # > Gemini
-  # > Claude
   # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,ai.com
-  # > ChatGPT
+  # > Gemini
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,anthropic.com
