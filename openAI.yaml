@@ -1,38 +1,38 @@
 payload:
-  # > ChatGPT
 
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  # > Copilot
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,anthropic.com
   # > Claude
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,anthropic.com
+  # > ChatGPT
+  # 数量：15条
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # > Gemini
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   # 内容：OpenAi
-  - DOMAIN-SUFFIX,intercom.io
-  # 数量：15条
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,featuregates.org
+  # > Gemini
+  - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  # > Copilot
+  - DOMAIN-SUFFIX,claude.ai
