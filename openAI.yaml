@@ -1,38 +1,38 @@
 payload:
 
-  - DOMAIN-SUFFIX,anthropic.com
-  # > ChatGPT
-  - DOMAIN-KEYWORD,openai
-  # 内容：OpenAi
+  # > Copilot
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # 数量：15条
+  # 内容：OpenAi
   - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,featuregates.org
+  # > ChatGPT
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,intercomcdn.com
+  # > Claude
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,bing.com
+  # > Gemini
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  # > Claude
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,identrust.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,bing.com
-  # > Copilot
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  # > Gemini
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,oaistatic.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN,openaiapi-site.azureedge.net
