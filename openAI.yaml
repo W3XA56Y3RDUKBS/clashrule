@@ -1,38 +1,38 @@
 payload:
 
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,intercom.io
-  # > ChatGPT
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # 内容：OpenAi
   # > Claude
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  # > Copilot
-  - DOMAIN-SUFFIX,gemini.google.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-KEYWORD,openai
-  # > Gemini
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > Chat GPT API & CDN
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  # 数量：15条
+  - DOMAIN-SUFFIX,claude.ai
+  # > ChatGPT
+  # > Gemini
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,featuregates.org
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,ai.com
+  # > Copilot
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # 内容：OpenAi
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
