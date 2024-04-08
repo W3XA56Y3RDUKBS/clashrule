@@ -1,40 +1,40 @@
 payload:
 
-  # > Claude
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,perplexity.ai
-  # 数量：15条
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  # > ChatGPT
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-KEYWORD,openai
+  - DOMAIN,production-openaicom-storage.azureedge.net
   # > Copilot
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  # > Claude
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,openai.com
   # 内容：OpenAi
   - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,sentry.io
-  # > Gemini
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-KEYWORD,openai
+  # 数量：15条
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,bingapis.com
   # > Perplexity
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  # > Gemini
+  - DOMAIN-SUFFIX,perplexity.ai
+  # > ChatGPT
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  # > Chat GPT API & CDN
