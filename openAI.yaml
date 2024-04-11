@@ -1,40 +1,40 @@
 payload:
 
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   # > Gemini
+  - DOMAIN-KEYWORD,openai
+  # > ChatGPT
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,bingapis.com
   # > Chat GPT API & CDN
   - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,bing.com
-  # 内容：OpenAi
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  # > ChatGPT
   # > Perplexity
-  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  # > Copilot
-  # > Claude
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,stripe.com
   # 数量：15条
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,gemini.google.com
+  # > Claude
+  # > Copilot
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
