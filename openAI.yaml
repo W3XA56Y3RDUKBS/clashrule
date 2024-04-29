@@ -1,42 +1,42 @@
 payload:
-  # > ChatGPT
 
-  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  # > Claude
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,ai.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  # > Gemini
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   # > Meta AI
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  # > Copilot
-  # > Perplexity AI
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,openai.com
-  # 数量：15条
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # > Gemini
   # 内容：OpenAi
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,intercomcdn.com
+  # > ChatGPT
+  # 数量：15条
+  - DOMAIN-SUFFIX,auth0.com
+  # > Perplexity AI
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # > Copilot
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  # > Claude
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
