@@ -1,42 +1,42 @@
 payload:
 
-  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  # > Claude
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,claude.ai
+  # 内容：OpenAi
+  # 数量：15条
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,sentry.io
+  # > Meta AI
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN-SUFFIX,perplexity.ai
-  # > Claude
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  # > ChatGPT
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,identrust.com
+  # > Perplexity AI
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,identrust.com
   # > Copilot
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   # > Gemini
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  # 内容：OpenAi
-  # > Perplexity AI
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
   # > Chat GPT API & CDN
-  # 数量：15条
-  # > Meta AI
-  # > ChatGPT
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,ai.com
