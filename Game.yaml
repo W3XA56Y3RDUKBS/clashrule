@@ -1,42 +1,42 @@
 payload:
-
-  - DOMAIN-SUFFIX,steamserver.net
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,xboxservices.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN,steamusercontent-a.akamaihd.net
-  - DOMAIN,steamstore-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,fanatical.com
-  - DOMAIN-SUFFIX,xboxab.com
-  - DOMAIN-SUFFIX,valvesoftware.com
-  - DOMAIN-SUFFIX,xboxab.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
-  # 内容：Steam
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,s.team
-  - DOMAIN-SUFFIX,gamepass.com
-  # 数量：5条
-  # - DOMAIN-SUFFIX,steamcontent.com
-  # 数量：6条
-  - DOMAIN-SUFFIX,xboxservice.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  # > Steam
-  - DOMAIN-SUFFIX,humblebundle.com
-  # 内容：xbox
-  # 数量：18条
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,playartifact.com
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  # 内容：Sony
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,underlords.com
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN,steampipe.akamaized.net
-  - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcommunity.com
+
+  # 数量：18条
+  - DOMAIN-SUFFIX,underlords.com
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,sony.com
+  # - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN,steambroadcast.akamaized.net
+  # 内容：xbox
+  # > Steam
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxab.net
+  # 内容：Sony
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamstat.us
+  # 数量：6条
+  # 数量：5条
+  - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  # 内容：Steam
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,xboxservice.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,gamepass.com
+  - DOMAIN-SUFFIX,fanatical.com
