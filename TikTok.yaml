@@ -1,14 +1,14 @@
 payload:
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-KEYWORD,tiktokcdn
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,muscdn.com
-  # USER-AGENT,TikTok*
-  - DOMAIN-SUFFIX,ibytedtos.com
-  # 内容：TikTok
-  - DOMAIN-SUFFIX,ipstatp.com
-  # 数量：11条
   - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktokv.com
+  # USER-AGENT,TikTok*
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,tiktokcdn.com
+  # 数量：11条
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,musical.ly
+  # 内容：TikTok
+  - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,tiktokv.com
