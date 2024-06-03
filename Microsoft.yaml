@@ -1,82 +1,82 @@
 payload:
-  - DOMAIN-SUFFIX,acompli.com
-  - DOMAIN-SUFFIX,trafficmanager.net
-  - DOMAIN-SUFFIX,msftauth.net
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-SUFFIX,windows-ppe.net
-  - DOMAIN-SUFFIX,azureiotcentral.com
-  - DOMAIN-SUFFIX,staffhub.ms
-  - DOMAIN-SUFFIX,cloudappsecurity.com
-  - DOMAIN-SUFFIX,msftauthimages.net
-  - DOMAIN-SUFFIX,sway-cdn.com
-  - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,lync.com
+  - DOMAIN-SUFFIX,msecnd.net
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onestore.ms
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sway-extensions.com
-  - DOMAIN-SUFFIX,acompli.net
-  - DOMAIN-SUFFIX,aka.ms
-  - DOMAIN-SUFFIX,aadrm.com
+  - DOMAIN-SUFFIX,msftidentity.com
+  - DOMAIN-SUFFIX,outlookmobile.com
+  - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,oaspapps.com
+  - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,omniroot.com
+  - DOMAIN-SUFFIX,assets-yammer.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,mstea.ms
+  - DOMAIN-SUFFIX,azure.net
   - DOMAIN-SUFFIX,msocdn.com
-  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,msft.net
+  - DOMAIN-SUFFIX,msidentity.com
+  - DOMAIN-SUFFIX,acompli.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,sfbassets.com
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-SUFFIX,msocsp.com
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,yammerusercontent.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,azureiotcentral.com
+  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-SUFFIX,yammer.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,msauthimages.net
+  - DOMAIN-SUFFIX,msn.cn
+  - DOMAIN-SUFFIX,sway-extensions.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,acompli.net
+  - DOMAIN-SUFFIX,sway.com
+  - DOMAIN-SUFFIX,cloudappsecurity.com
+  - DOMAIN-SUFFIX,office365.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,azurerms.com
   - DOMAIN-SUFFIX,windowsazure.com
   - DOMAIN-SUFFIX,onenote.net
-  - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,msocsp.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-SUFFIX,yammer.com
-  # 数量：79条
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,virtualearth.net
-  - DOMAIN-SUFFIX,msn.cn
-  - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,msappproxy.net
-  - DOMAIN-SUFFIX,sharepointonline.com
-  - DOMAIN-SUFFIX,msidentity.com
-  - DOMAIN-SUFFIX,msftidentity.com
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,skype.com
-  - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-SUFFIX,sfbassets.com
+  - DOMAIN-SUFFIX,staffhub.ms
+  - DOMAIN-SUFFIX,trafficmanager.net
   - DOMAIN-SUFFIX,public-trust.com
-  - DOMAIN-SUFFIX,outlookmobile.com
-  - DOMAIN-SUFFIX,omniroot.com
-  - DOMAIN-SUFFIX,bing.net
-  - DOMAIN-SUFFIX,azurerms.com
-  - DOMAIN-SUFFIX,msft.net
-  - DOMAIN-SUFFIX,gfx.ms
-  - DOMAIN-SUFFIX,assets-yammer.com
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,cloudapp.net
-  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,aadrm.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,sway-cdn.com
+  - DOMAIN-SUFFIX,live.net
   # 内容：Microsoft
   - DOMAIN-SUFFIX,aspnetcdn.com
-  - DOMAIN-SUFFIX,uservoice.com
-  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,windows-ppe.net
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,lync.com
   - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,msauth.net
-  - DOMAIN-SUFFIX,onenote.com
-  - DOMAIN-SUFFIX,skypeforbusiness.com
-  - DOMAIN-SUFFIX,msauthimages.net
-  - DOMAIN-SUFFIX,svc.ms
+  # 数量：79条
+  - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,skypeassets.com
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,mstea.ms
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,o365weve.com
-  - DOMAIN-SUFFIX,sway.com
-  - DOMAIN-SUFFIX,wunderlist.com
-  - DOMAIN-SUFFIX,oaspapps.com
   - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,phonefactor.net
-  - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,azure.net
+  - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,officeppe.net
+  - DOMAIN-SUFFIX,msauth.net
+  - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,virtualearth.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,wunderlist.com
+  - DOMAIN-SUFFIX,svc.ms
+  - DOMAIN-SUFFIX,phonefactor.net
+  - DOMAIN-SUFFIX,uservoice.com
+  - DOMAIN-SUFFIX,sfx.ms
+  - DOMAIN-SUFFIX,o365weve.com
