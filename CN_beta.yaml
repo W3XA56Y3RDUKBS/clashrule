@@ -1,188 +1,188 @@
 payload:
 
   - DOMAIN-SUFFIX,hdslb.com
-  - IP-CIDR,59.111.160.195/32,no-resolve
-  # 数量：21条
-  # 内容：NetEaseMusic 网易云音乐
-  - DOMAIN-SUFFIX,bilivideo.cn
-  - DOMAIN,epicgames-download1.akamaized.net
-  - DOMAIN-SUFFIX,qiyipic.com
-  # PROCESS-NAME,Thunder.exe
-  - DOMAIN-SUFFIX,dyn.riotcdn.net
-  # PROCESS-NAME,uTorrent.exe
-  - DOMAIN,apiintl.biliapi.net
-  - DOMAIN,origin-a.akamaihd.net
-  # TencentVideo 腾讯视频
-  - DOMAIN-SUFFIX,mam.netease.com
-  - DOMAIN,intl-subscription.iqiyi.com
-  - IP-CIDR,106.11.0.0/16,no-resolve
-  - IP-CIDR,39.105.63.80/32,no-resolve
-  - DOMAIN,download3.epicgames.com
-  - IP-CIDR,23.40.242.10/32,no-resolve
-  - DOMAIN-SUFFIX,163yun.com
-  - IP-CIDR,47.100.127.239/32,no-resolve
-  - DOMAIN,download.hikarifield.co.jp
-  # 数量：45条
-  # URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-  - IP-CIDR,103.126.92.132/32,no-resolve
-  # Letv 乐视
-  - IP-CIDR,115.236.118.34/32,no-resolve
-  # USER-AGENT,MOO*
-  # 内容：TencentVideo 腾讯视频
   # USER-AGENT,TencentMidasConnect*
-  - DOMAIN-SUFFIX,myqnapcloud.cn
-  # ChinaOneKeyLogin
-  # PROCESS-NAME,Folx.exe
-  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
-  - IP-CIDR,59.111.179.214/32,no-resolve
-  # URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
-  # PROCESS-NAME,NetTransport.exe
-  #Baidu disk
-  - DOMAIN,download.epicgames.com
-  - DOMAIN,xvcf2.xboxlive.com
-  - DOMAIN-SUFFIX,v.smtcdns.com
-  # 内容：Download
-  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
-  - DOMAIN-SUFFIX,b23.tv
-  # PROCESS-NAME,baidunetdisk.exe
-  - DOMAIN-SUFFIX,iqiyi.com
-  - IP-CIDR,112.13.122.4/32,no-resolve
-  - DOMAIN,download2.epicgames.com
-  - IP-CIDR,115.236.121.4/32,no-resolve
-  - DOMAIN-SUFFIX,api.mob.app.letv.com
-  - DOMAIN-SUFFIX,biligame.com
-  - DOMAIN-SUFFIX,biliapi.com
-  - IP-CIDR,223.119.62.225/28,no-resolve
-  - IP-CIDR,59.111.181.60/32,no-resolve
-  # 数量：2条
-  - DOMAIN-SUFFIX,cmpassport.com
-  - IP-CIDR,59.111.238.29/32,no-resolve
-  - DOMAIN,packagespc.xboxlive.com
-  # bt
-  - IP-CIDR,59.111.160.197/32,no-resolve
-  - IP-CIDR,59.111.181.35/32,no-resolve
-  # 内容：Bilibili 哔哩哔哩
-  - DOMAIN-SUFFIX,6.ipw.cn
-  - DOMAIN-SUFFIX,open.e.189.cn
-  - DOMAIN-SUFFIX,id6.me
-  # PROCESS-NAME,WebTorrent Helper.exe
-  - DOMAIN-SUFFIX,intl.iqiyi.com
-  # URL-REGEX,(Subject|HELO|SMTP)
-  - DOMAIN-SUFFIX,hz.netease.com
-  - DOMAIN-SUFFIX,speed.neu6.edu.cn
-  - IP-CIDR,39.105.175.128/32,no-resolve
-  - DOMAIN-SUFFIX,music.163.com
-  - DOMAIN-SUFFIX,tailscale.com
-  - DOMAIN,gog-cdn-lumen.secure2.footprint.net
-  - DOMAIN-SUFFIX,71edge.com
-  - IP-CIDR,223.252.199.66/32,no-resolve
-  - DOMAIN,assets1.xboxlive.com
-  - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
-  - DOMAIN-SUFFIX,biliapi.net
-  # PROCESS-NAME,Weiyun.exe
-  # USER-AGENT,Bilibili*
-  - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN,ssl-lvlt.cdn.ea.com
-  - DOMAIN-SUFFIX,4.ipw.cn
-  - DOMAIN-SUFFIX,acg.tv
-  - DOMAIN-SUFFIX,smtp
-  # PROCESS-NAME,aria2c.exe
-  - IP-CIDR,115.236.121.1/32,no-resolve
-  - IP-CIDR,103.126.92.132/31,no-resolve
-  - DOMAIN-SUFFIX,cdn.ubi.com
-  - IP-CIDR,59.111.21.14/31,no-resolve
-  # URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-  # USER-AGENT,QYPlayer*
-  - DOMAIN-SUFFIX,bilivideo.com
-  # 内容：GameDownload
-  # PROCESS-NAME,qbittorrent.exe
-  # Bilibili 哔哩哔哩
-  # 数量：23条
-  - IP-CIDR,193.112.159.225/32,no-resolve
-  - IP-CIDR,103.44.56.0/22,no-resolve
-  - DOMAIN-SUFFIX,myddns.rocks
-  - DOMAIN-KEYWORD,cloudflarestorage
-  - IP-CIDR,112.13.122.1/32,no-resolve
-  - DOMAIN,intel-cache.m.iqiyi.com
-  - IP-CIDR,118.26.120.0/24,no-resolve
-  # XunLei
-  # Mac Download
-  - IP-CIDR,45.254.48.1/32,no-resolve
-  - IP-CIDR,59.111.181.38/32,no-resolve
-  # URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-  # 内容：Iqiyi 爱奇艺
-  - DOMAIN-SUFFIX,auth.wo.cn
-  # USER-AGENT,bili*
-  - DOMAIN-SUFFIX,acgvideo.com
-  - DOMAIN-SUFFIX,im9.com
-  # Youku 优酷
-  - IP-CIDR,112.13.119.18/32,no-resolve
-  - DOMAIN-SUFFIX,smtcdns.net
-  - IP-CIDR,103.126.92.133/32,no-resolve
-  - IP-CIDR,23.40.241.251/32,no-resolve
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  - DOMAIN-KEYWORD,cmdw
-  # USER-AGENT,bili-inter*
-  # PROCESS-NAME,WebTorrent.exe
-  - DOMAIN-SUFFIX,steampipe.akamaized.net
-  # URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
-  - DOMAIN-SUFFIX,bigfun.cn
-  - DOMAIN-SUFFIX,ppsimg.com
-  #- DOMAIN-SUFFIX,eft-store.com
-  - DOMAIN-SUFFIX,vv.video.qq.com
-  # 数量：25条
-  - IP-CIDR,182.92.170.253/32,no-resolve
-  - DOMAIN-SUFFIX,ddns.oray.com
-  - DOMAIN,intel-cache.video.iqiyi.com
-  - DOMAIN-SUFFIX,youku.com
-  - DOMAIN-KEYWORD,aria2
-  # 数量：20条
-  # 360
-  # 内容：中国媒体列表
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
-  
-  - IP-CIDR,112.13.119.17/32,no-resolve
-  # PROCESS-NAME,DownloadService.exe
-  # Iqiyi 爱奇艺
-  - DOMAIN,assets2.xboxlive.com
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,dl.playstation.net
-  - DOMAIN-SUFFIX,bilibili.tv
-  - DOMAIN-SUFFIX,biliintl.co
-  - DOMAIN-KEYWORD,oddba
-  - DOMAIN,xvcf1.xboxlive.com
-  # 更新：2024-05-07 08:06:35
-  # PROCESS-NAME,fdm.exe
-  - DOMAIN-SUFFIX,iq.com
-  - IP-CIDR,223.252.199.66/31,no-resolve
-  - DOMAIN-SUFFIX,music.163.com.163jiasu.com
-  - DOMAIN-SUFFIX,bilibili.co
-  - IP-CIDR,101.71.154.241/32,no-resolve
-  - IP-CIDR,118.26.32.0/23,no-resolve
-  # MOO
-  - IP-CIDR,59.111.19.33/32,no-resolve
-  - DOMAIN-SUFFIX,biligame.net
-  - IP-CIDR,115.236.118.33/32,no-resolve
-  - DOMAIN,download4.epicgames.com
-  - DOMAIN-SUFFIX,71.am
-  - DOMAIN,download.cdp.bethesda.net
-  - DOMAIN-SUFFIX,iqiyipic.com
-  - DOMAIN,intl-rcd.iqiyi.com
-  # USER-AGENT,iQIYI*
-  # 数量：37条
-  - IP-CIDR,118.24.63.156/32,no-resolve
-  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
-  - DOMAIN-KEYWORD,weishi
-  - DOMAIN-SUFFIX,qiyi.com
-  # PROCESS-NAME,Transmission.exe
-  # URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-  # Tencent Weiyun
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,client.hikarifield.co.jp
-  - IP-CIDR,223.252.199.67/32,no-resolve
   - DOMAIN-SUFFIX,inter.iqiyi.com
-  - DOMAIN-SUFFIX,qy.net
-  - DOMAIN-SUFFIX,bigfunapp.cn
+  # USER-AGENT,bili*
+  # URL-REGEX,(Subject|HELO|SMTP)
+  - DOMAIN-SUFFIX,iqiyi.com
+  - IP-CIDR,115.236.118.33/32,no-resolve
+  # PROCESS-NAME,uTorrent.exe
+  # 内容：GameDownload
+  - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN,download2.epicgames.com
+  - DOMAIN,epicgames-download1.akamaized.net
+  - IP-CIDR,182.92.170.253/32,no-resolve
+  - DOMAIN-SUFFIX,auth.wo.cn
+  - DOMAIN-SUFFIX,biligame.com
+  - DOMAIN-SUFFIX,ppsimg.com
+  # 数量：45条
+  # PROCESS-NAME,WebTorrent Helper.exe
+  - DOMAIN,download.epicgames.com
+  # 数量：23条
+  - DOMAIN-SUFFIX,dyn.riotcdn.net
+  - DOMAIN-SUFFIX,bigfun.cn
+  - IP-CIDR,103.126.92.132/32,no-resolve
+  # URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN,apiintl.biliapi.net
+  - DOMAIN,intel-cache.m.iqiyi.com
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
+  # MOO
+  - DOMAIN,download.hikarifield.co.jp
+  - DOMAIN-SUFFIX,iqiyipic.com
+  # 内容：中国媒体列表
+  - IP-CIDR,103.44.56.0/22,no-resolve
+  - DOMAIN,download.cdp.bethesda.net
+  # 内容：Bilibili 哔哩哔哩
+  - DOMAIN,intl-subscription.iqiyi.com
+  - IP-CIDR,115.236.118.34/32,no-resolve
+  - IP-CIDR,112.13.122.4/32,no-resolve
+  - DOMAIN,assets2.xboxlive.com
+  - DOMAIN-SUFFIX,intl.iqiyi.com
+  - DOMAIN,gog-cdn-lumen.secure2.footprint.net
+  - IP-CIDR,112.13.122.1/32,no-resolve
+  # PROCESS-NAME,WebTorrent.exe
   - DOMAIN-SUFFIX,api.iplay.163.com
+  - IP-CIDR,39.105.175.128/32,no-resolve
+  # Letv 乐视
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,hz.netease.com
+  # PROCESS-NAME,Thunder.exe
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,speed.neu6.edu.cn
+  - DOMAIN,download3.epicgames.com
+  - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN,download4.epicgames.com
+  - DOMAIN-KEYWORD,cmdw
+  - DOMAIN-SUFFIX,open.e.189.cn
+  - DOMAIN,xvcf2.xboxlive.com
+  - IP-CIDR,103.126.92.132/31,no-resolve
+  # URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+  - DOMAIN-SUFFIX,api.mob.app.letv.com
+  - DOMAIN-SUFFIX,163yun.com
+  - IP-CIDR,112.13.119.18/32,no-resolve
+  - IP-CIDR,223.252.199.66/32,no-resolve
+  - IP-CIDR,118.26.32.0/23,no-resolve
+  - IP-CIDR,101.71.154.241/32,no-resolve
+  # USER-AGENT,Bilibili*
+  - IP-CIDR,39.105.63.80/32,no-resolve
+  # URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
+  - DOMAIN-SUFFIX,71.am
+  - DOMAIN-SUFFIX,cmpassport.com
+  - IP-CIDR,103.126.92.133/32,no-resolve
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,4.ipw.cn
+  - IP-CIDR,59.111.21.14/31,no-resolve
+  - DOMAIN-SUFFIX,myqnapcloud.cn
+  # Iqiyi 爱奇艺
+  - IP-CIDR,223.252.199.67/32,no-resolve
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  # PROCESS-NAME,Transmission.exe
+  # XunLei
+  # PROCESS-NAME,DownloadService.exe
+  - IP-CIDR,115.236.121.1/32,no-resolve
+  - IP-CIDR,118.26.120.0/24,no-resolve
+  - DOMAIN,packagespc.xboxlive.com
+  - IP-CIDR,59.111.181.38/32,no-resolve
+  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+  # 内容：Iqiyi 爱奇艺
+  - IP-CIDR,59.111.181.60/32,no-resolve
+  #Baidu disk
+  - DOMAIN-SUFFIX,bilibili.tv
+  # TencentVideo 腾讯视频
+  # PROCESS-NAME,Folx.exe
+  - DOMAIN-SUFFIX,b23.tv
+  # PROCESS-NAME,NetTransport.exe
+  # Tencent Weiyun
+  - IP-CIDR,106.11.0.0/16,no-resolve
+  # 数量：20条
+  - DOMAIN-SUFFIX,id6.me
+  - DOMAIN-SUFFIX,mam.netease.com
+  # 360
+  - IP-CIDR,115.236.121.4/32,no-resolve
+  - DOMAIN-KEYWORD,oddba
+  # URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+  # PROCESS-NAME,aria2c.exe
+  
+  # ChinaOneKeyLogin
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-KEYWORD,parsec
+  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,acg.tv
+  # PROCESS-NAME,qbittorrent.exe
+  - IP-CIDR,223.119.62.225/28,no-resolve
+  # USER-AGENT,QYPlayer*
+  - IP-CIDR,59.111.160.195/32,no-resolve
+  - DOMAIN-SUFFIX,myddns.rocks
+  # USER-AGENT,iQIYI*
+  # 内容：TencentVideo 腾讯视频
+  # USER-AGENT,MOO*
+  - IP-CIDR,23.40.241.251/32,no-resolve
+  - DOMAIN-KEYWORD,weishi
+  # 数量：25条
+  # Youku 优酷
+  # PROCESS-NAME,baidunetdisk.exe
+  # Bilibili 哔哩哔哩
+  # 数量：21条
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,music.163.com.163jiasu.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-KEYWORD,aria2
+  # URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+  - DOMAIN,ssl-lvlt.cdn.ea.com
+  - DOMAIN-SUFFIX,myqnapcloud.com
+  - IP-CIDR,59.111.238.29/32,no-resolve
+  - DOMAIN,xvcf1.xboxlive.com
+  # Mac Download
+  # 更新：2024-05-07 08:06:35
+  - IP-CIDR,118.24.63.156/32,no-resolve
+  - IP-CIDR,112.13.119.17/32,no-resolve
+  - IP-CIDR,45.254.48.1/32,no-resolve
+  - DOMAIN,origin-a.akamaihd.net
+  - IP-CIDR,193.112.159.225/32,no-resolve
+  # PROCESS-NAME,Weiyun.exe
+  - DOMAIN-SUFFIX,biliapi.com
+  # 内容：NetEaseMusic 网易云音乐
+  # URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+  - IP-CIDR,59.111.19.33/32,no-resolve
+  # USER-AGENT,bili-inter*
+  # 数量：37条
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,im9.com
+  - DOMAIN-SUFFIX,qiyipic.com
+  - DOMAIN-KEYWORD,cloudflarestorage
+  # bt
+  - DOMAIN-SUFFIX,bilivideo.cn
+  - IP-CIDR,223.252.199.66/31,no-resolve
+  - DOMAIN-SUFFIX,smtcdns.net
+  - IP-CIDR,59.111.160.197/32,no-resolve
+  - DOMAIN-SUFFIX,bigfunapp.cn
+  - DOMAIN-SUFFIX,bilibili.co
+  #- DOMAIN-SUFFIX,eft-store.com
+  - IP-CIDR,59.111.179.214/32,no-resolve
+  - DOMAIN-SUFFIX,youku.com
+  - IP-CIDR,47.100.127.239/32,no-resolve
+  - DOMAIN,intel-cache.video.iqiyi.com
+  - DOMAIN-SUFFIX,cdn.ubi.com
+  - DOMAIN-SUFFIX,ddns.oray.com
+  # 数量：2条
+  # PROCESS-NAME,fdm.exe
+  # 内容：Download
+  - DOMAIN-SUFFIX,71edge.com
+  - IP-CIDR,23.40.242.10/32,no-resolve
+  - DOMAIN,assets1.xboxlive.com
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,6.ipw.cn
+  - DOMAIN-SUFFIX,qiyi.com
+  - IP-CIDR,59.111.181.35/32,no-resolve
+  - DOMAIN-SUFFIX,acgvideo.com
+  - DOMAIN-SUFFIX,bilibili.com
