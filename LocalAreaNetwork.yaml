@@ -1,41 +1,41 @@
 payload:
 
-  - DOMAIN-SUFFIX,phicomm.me
-  - IP-CIDR6,::1/128,no-resolve
-  - IP-CIDR,127.0.0.0/8,no-resolve
-  - IP-CIDR,192.168.0.0/16,no-resolve
-  - DOMAIN-SUFFIX,routerlogin.com
-  - DOMAIN-SUFFIX,tendawifi.com
-  - DOMAIN-SUFFIX,miwifi.com
-  - DOMAIN-SUFFIX,my.router
   # 本地/局域网地址
-  - DOMAIN-SUFFIX,local
-  - DOMAIN,router.asus.com
-  - DOMAIN-SUFFIX,tplogin.cn
-  - IP-CIDR,10.0.0.0/8,no-resolve
-  - DOMAIN-SUFFIX,hiwifi.com
-  - DOMAIN-SUFFIX,leike.cc
-  - DOMAIN-SUFFIX,acl4.ssr
-  - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,router.ctc
-  # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-  - DOMAIN,www.asusrouter.com
-  - IP-CIDR,100.64.0.0/10,no-resolve
-  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-  - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN-SUFFIX,p.to
-  - IP-CIDR6,fd00::/8,no-resolve
-  - DOMAIN-SUFFIX,lan
-  - DOMAIN-SUFFIX,wifi.cmcc
-  - DOMAIN-SUFFIX,peiluyou.com
-  - DOMAIN-SUFFIX,zte.home
-  # Router managed 路由器管理域名
-  - DOMAIN,instant.arubanetworks.com
-  - IP-CIDR,198.18.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,localhost
   - IP-CIDR,172.16.0.0/12,no-resolve
-  - DOMAIN-SUFFIX,ip6-loopback
-  - IP-CIDR,0.0.0.0/8,no-resolve
-  - IP-CIDR6,fc00::/7,no-resolve
-  - IP-CIDR6,fe80::/10,no-resolve
-  - DOMAIN-SUFFIX,ip6-localhost
+  - DOMAIN,setmeup.arubanetworks.com
   - IP-CIDR,224.0.0.0/4,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,local
+  - IP-CIDR6,fd00::/8,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve
+  - DOMAIN-SUFFIX,tendawifi.com
+  # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
+  - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,tplogin.cn
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,peiluyou.com
+  - DOMAIN-SUFFIX,my.router
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,ip6-localhost
+  - DOMAIN-SUFFIX,zte.home
+  - DOMAIN-SUFFIX,ip6-loopback
+  - DOMAIN-SUFFIX,lan
+  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+  - DOMAIN-SUFFIX,miwifi.com
+  - IP-CIDR,198.18.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,wifi.cmcc
+  - IP-CIDR6,::1/128,no-resolve
+  - DOMAIN,router.asus.com
+  - DOMAIN-SUFFIX,acl4.ssr
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  # Router managed 路由器管理域名
+  - DOMAIN-SUFFIX,p.to
+  - DOMAIN,instant.arubanetworks.com
+  - IP-CIDR,10.0.0.0/8,no-resolve
