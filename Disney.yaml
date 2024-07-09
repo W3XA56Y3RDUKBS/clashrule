@@ -1,32 +1,32 @@
 payload:
 
-  - DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+  - DOMAIN,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,disney.my.sentry.io
   - DOMAIN-SUFFIX,prod-static.disney-plus.net
-  - DOMAIN-SUFFIX,cws.conviva.com
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
   # USER-AGENT,Disney*
-  - DOMAIN-SUFFIX,bam.nr-data.net
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,cdn.optimizely.com
-  # > Disney Plus
-  - DOMAIN-SUFFIX,bamgrid.com
-  # 数量：22条
-  - DOMAIN-SUFFIX,disney.my.sentry.io
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
-  - PROCESS-NAME,com.disney.disneyplus
-  # 内容：DisneyPlus
-  - DOMAIN-SUFFIX,disneystreaming.com
-  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
-  - DOMAIN-SUFFIX,d9.flashtalking.com
   - DOMAIN-SUFFIX,disney.demdex.net
-  # - USER-AGENT,Disney*
   - DOMAIN-SUFFIX,disney-plus.net
-  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
-  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,cws.conviva.com
   - DOMAIN-SUFFIX,disneyplus.bn5x.net
-  - DOMAIN-SUFFIX,js-agent.newrelic.com
-  - DOMAIN,cdn.registerdisney.go.com
+  # > Disney Plus
   # USER-AGENT,Disney+*
-  - DOMAIN-SUFFIX,braze.com
-  - DOMAIN-SUFFIX,adobedtm.com
+  # - USER-AGENT,Disney*
+  # 数量：22条
+  - DOMAIN-SUFFIX,bam.nr-data.net
+  # 内容：DisneyPlus
+  - DOMAIN-SUFFIX,d9.flashtalking.com
