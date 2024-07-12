@@ -1,32 +1,32 @@
 payload:
 
-  - DOMAIN-SUFFIX,disney-plus.net
-  # > Disney Plus
-  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
-  # 内容：DisneyPlus
-  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
-  - DOMAIN-SUFFIX,bamgrid.com
-  - DOMAIN-SUFFIX,cws.conviva.com
-  # USER-AGENT,Disney+*
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
-  - DOMAIN-SUFFIX,prod-static.disney-plus.net
-  - DOMAIN,cdn.registerdisney.go.com
-  - DOMAIN-SUFFIX,adobedtm.com
-  - DOMAIN-SUFFIX,dssott.com
-  - DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
-  - DOMAIN-SUFFIX,bam.nr-data.net
-  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
-  - DOMAIN-SUFFIX,cdn.optimizely.com
-  # - USER-AGENT,Disney*
-  - DOMAIN-SUFFIX,js-agent.newrelic.com
-  # 数量：22条
-  - DOMAIN-SUFFIX,disney.my.sentry.io
-  - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,disney.demdex.net
-  # USER-AGENT,Disney*
+  # - USER-AGENT,Disney*
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,bam.nr-data.net
+  # 数量：22条
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-  - DOMAIN-SUFFIX,d9.flashtalking.com
-  - PROCESS-NAME,com.disney.disneyplus
-  - DOMAIN-SUFFIX,disneyplus.bn5x.net
-  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,prod-static.disney-plus.net
+  # 内容：DisneyPlus
   - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,dssott.com
+  # > Disney Plus
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net
+  # USER-AGENT,Disney+*
+  - DOMAIN-SUFFIX,disney.my.sentry.io
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  # USER-AGENT,Disney*
+  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
+  - PROCESS-NAME,com.disney.disneyplus
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,d9.flashtalking.com
+  - DOMAIN,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,cws.conviva.com
