@@ -1,45 +1,45 @@
 payload:
 
-  # > ChatGPT
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  # 数量：17条
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-  # > Gemini
-  - DOMAIN,gemini.google.com
-  # > Claude
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,stripe.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  # > Perplexity AI
-  # > Meta AI
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,ai.com
-  # > Copilot
-  # 数量：2条
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  # 内容：Claude
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  # > ChatGPT
+  - DOMAIN-SUFFIX,featuregates.org
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,claude.ai
+  # 数量：2条
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  # > Meta AI
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  # > Gemini
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,gemini.google.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # > Copilot
+  # > Claude
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,sentry.io
+  # > Perplexity AI
+  # 内容：Claude
+  - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,openai.com
+  # 数量：17条
+  - DOMAIN-SUFFIX,meta.ai
