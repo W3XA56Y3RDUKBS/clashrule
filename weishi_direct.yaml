@@ -1,23 +1,23 @@
 payload:
 
-  #- DOMAIN-SUFFIX,eft-store.com
-  - DOMAIN-SUFFIX,tailscale.com
   - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN-SUFFIX,llnwd.net
-  
-  - DOMAIN-KEYWORD,weishi
-  - DOMAIN-SUFFIX,6.ipw.cn
-  - DOMAIN-SUFFIX,myddns.rocks
-  - DOMAIN-KEYWORD,parsec
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-KEYWORD,oddba
-  - DOMAIN-SUFFIX,ddns.oray.com
-  - DOMAIN-KEYWORD,cmdw
-  - DOMAIN-SUFFIX,4.ipw.cn
+  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN-SUFFIX,myqnapcloud.cn
+  #- DOMAIN-SUFFIX,eft-store.com
   - DOMAIN-SUFFIX,dl.playstation.net
   - DOMAIN-KEYWORD,cloudflarestorage
-  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
-  - DOMAIN-SUFFIX,speed.neu6.edu.cn
-  - DOMAIN-SUFFIX,myqnapcloud.cn
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,4.ipw.cn
   - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-KEYWORD,weishi
+  - DOMAIN-KEYWORD,parsec
+  - DOMAIN-KEYWORD,cmdw
+  - DOMAIN-KEYWORD,oddba
+  - DOMAIN-SUFFIX,speed.neu6.edu.cn
+  
+  - DOMAIN-SUFFIX,ddns.oray.com
+  - DOMAIN-SUFFIX,6.ipw.cn
+  - DOMAIN-SUFFIX,tailscale.com
   - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,myddns.rocks
