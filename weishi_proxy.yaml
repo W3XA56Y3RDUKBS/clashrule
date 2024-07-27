@@ -1,13 +1,13 @@
 payload:
 
-  # Proxy
   - DOMAIN-KEYWORD,busuu
   - DOMAIN-SUFFIX,note.ms
-  - DOMAIN-SUFFIX,eft-store.com
-  - DOMAIN-SUFFIX,paoluz.link
-  - DOMAIN-KEYWORD,coursera
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,support.parsec.app
-  - DOMAIN-SUFFIX,download.synology.com
-  - DOMAIN-KEYWORD,sp-tarkov
   - DOMAIN-KEYWORD,linkedin
+  - DOMAIN-SUFFIX,eft-store.com
+  # Proxy
+  - DOMAIN-SUFFIX,paoluz.link
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,download.synology.com
+  - DOMAIN-KEYWORD,coursera
+  - DOMAIN-SUFFIX,support.parsec.app
+  - DOMAIN-KEYWORD,sp-tarkov
