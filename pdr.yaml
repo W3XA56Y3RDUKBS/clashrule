@@ -1,84 +1,84 @@
 payload:
 
-  - DOMAIN-SUFFIX,box.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,api.codelife.cc
-  # > Meta AI
-  - DOMAIN-SUFFIX,ai.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-KEYWORD,focusvision
-  - DOMAIN-KEYWORD,voxpopme
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  # > ChatGPT
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  # > Claude
-  - DOMAIN-KEYWORD,workflowmax
-  - DOMAIN-SUFFIX,sentry.io
-  # > Copilot
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-KEYWORD,npmmirror
-  - DOMAIN-KEYWORD,realeye
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,wiki.metacubex.one
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,fctg.travel
-  - DOMAIN-SUFFIX,tencentcloud.com
-  - DOMAIN-KEYWORD,docker
-  - DOMAIN-KEYWORD,gladybehaviorally
-  - PROCESS-NAME,WinSCP.exe
-  - DOMAIN-KEYWORD,paralleldata
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN-KEYWORD,qualtrics
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-KEYWORD,notion
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,voxpopme.com
-  - DOMAIN-KEYWORD,displayr
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-KEYWORD,forstasurveys
-  # > Gemini
-  # > Perplexity AI
   - DOMAIN-KEYWORD,wetransfer
+  # 内容：Claude
+  - DOMAIN-KEYWORD,realeye
+  - DOMAIN-SUFFIX,ai.com
+  
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-KEYWORD,linkedin
+  # > ChatGPT
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,identrust.com
+  # 内容：OpenAi
+  - DOMAIN-KEYWORD,decipherinc
+  - DOMAIN,gemini.google.com
+  - DOMAIN-SUFFIX,api.codelife.cc
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  # 数量：2条
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  # > Claude
   - DOMAIN-KEYWORD,zendesk
   - DOMAIN-KEYWORD,miro
   - DOMAIN-SUFFIX,monday.com
-  - DOMAIN-KEYWORD,surveyfiles
-  - DOMAIN-SUFFIX,translate.google.com
-  - DOMAIN-KEYWORD,decipherinc
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-KEYWORD,workflowmax2
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,trtc.io
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  #- DOMAIN-SUFFIX,graph.microsoft.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,download.synology.com
+  # > Chat GPT API & CDN
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-KEYWORD,gladys
-  # 数量：2条
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-KEYWORD,synology
-  - DOMAIN-SUFFIX,intercomcdn.com
-  # 内容：OpenAi
-  - DOMAIN-KEYWORD,behaviorally
-  - DOMAIN,gemini.google.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-KEYWORD,openai
-  
-  # 数量：17条
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,voxpopme.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-KEYWORD,gladybehaviorally
   - DOMAIN-SUFFIX,openai.com
-  # 内容：Claude
-  - DOMAIN-KEYWORD,linkedin
-  - DOMAIN-KEYWORD,onlinesurvey
+  #- DOMAIN-SUFFIX,graph.microsoft.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-KEYWORD,workflowmax
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,wiki.metacubex.one
+  - DOMAIN-SUFFIX,trtc.io
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-KEYWORD,displayr
+  - DOMAIN-KEYWORD,behaviorally
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  # > Perplexity AI
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-KEYWORD,forstasurveys
+  - DOMAIN-SUFFIX,tencentcloud.com
+  - DOMAIN-KEYWORD,qualtrics
+  # > Gemini
+  - DOMAIN-KEYWORD,npmmirror
+  - DOMAIN-SUFFIX,fctg.travel
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-KEYWORD,github
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  # > Copilot
+  - DOMAIN-KEYWORD,paralleldata
+  - DOMAIN-KEYWORD,focusvision
+  # 数量：17条
+  - DOMAIN-KEYWORD,workflowmax2
+  - DOMAIN-SUFFIX,translate.google.com
+  # > Meta AI
+  - DOMAIN-SUFFIX,box.com
+  - DOMAIN-SUFFIX,download.synology.com
+  - DOMAIN-KEYWORD,voxpopme
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-KEYWORD,gladys
+  - DOMAIN-KEYWORD,notion
+  - DOMAIN-KEYWORD,docker
+  - DOMAIN-KEYWORD,onlinesurvey
+  - PROCESS-NAME,WinSCP.exe
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-KEYWORD,surveyfiles
+  - DOMAIN,openaiapi-site.azureedge.net
