@@ -1,45 +1,45 @@
 payload:
 
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,intercom.io
+  # > Meta AI
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,gemini.google.com
-  # > Chat GPT API & CDN
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  # > Claude
-  - DOMAIN-SUFFIX,openai.com
-  # 内容：OpenAi
-  # > Copilot
-  # 内容：Claude
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  # > Gemini
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN,openaiapi-site.azureedge.net
-  # > Perplexity AI
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  # 内容：Claude
+  - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,anthropic.com
+  # > Chat GPT API & CDN
+  # 数量：17条
+  # > Claude
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  # > Copilot
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  # > Perplexity AI
+  - DOMAIN-SUFFIX,auth0.com
   # > ChatGPT
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  # > Gemini
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  # > Meta AI
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,sentry.io
+  # 内容：OpenAi
   # 数量：2条
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,perplexity.ai
-  # 数量：17条
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
