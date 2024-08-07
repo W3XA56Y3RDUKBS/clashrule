@@ -146,6 +146,7 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml"
         ],
         'GameDownload': [
+            "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/GameDownload.yaml",
             "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
