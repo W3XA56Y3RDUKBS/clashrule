@@ -1,10 +1,11 @@
+import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-import requests
 import os
+from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 
 def download_file(session, url):
-    """下载单个文件内容"""
     try:
         response = session.get(url)
         response.raise_for_status()
@@ -13,66 +14,48 @@ def download_file(session, url):
         print(f"Error downloading {url}: {e}")
         return None
 
-def clean_content(content):
-    """清理内容：移除 'payload:' 行，移除重复行"""
-    lines = set()
-    for line in content.split('\n'):
-        if line.strip() != "payload:":
-            lines.add(line)
-    return '\n'.join(lines)
-
-def standardize_yaml_indentation(content):
-    """确保所有以 '-' 开头的行都有相同的缩进级别"""
+def process_content(content):
     lines = content.split('\n')
-    standardized_lines = []
-
-    for line in lines:
-        if line.strip().startswith('-'):
-            standardized_lines.append("  " + line.lstrip())
-        else:
-            standardized_lines.append(line)
-
-    return '\n'.join(standardized_lines)
+    processed_lines = [
+        line.strip() for line in lines
+        if line.strip() and not line.startswith('#') and line.strip() != "payload:"
+    ]
+    return processed_lines
 
 def download_and_process(urls, session):
-    """下载多个文件并处理内容"""
-    all_content = []
-    for url in urls:
-        file_content = download_file(session, url)
-        if file_content:
-            standardized_content = standardize_yaml_indentation(file_content)
-            all_content.append(standardized_content)
-    combined_content = "\n".join(all_content)
-    return clean_content(combined_content)
+    with ThreadPoolExecutor() as executor:
+        contents = executor.map(lambda url: download_file(session, url), urls)
+    all_lines = []
+    for content in contents:
+        if content:
+            all_lines.extend(process_content(content))
+    return list(OrderedDict.fromkeys(all_lines))  # Remove duplicates while preserving order
 
 def save_to_file(content, filename):
-    """保存内容到文件，并比较更新前后的内容差异"""
+    new_line_count = len(content)
     original_line_count = 0
-    new_line_count = content.count('\n')
 
     if os.path.exists(filename):
         with open(filename, 'r') as file:
-            original_line_count = sum(1 for _ in file)
+            original_line_count = sum(1 for _ in file) - 1  # Subtract 1 for the "payload:" line
         print(f"{filename}: Exist, Checking updates")
 
     with open(filename, 'w') as file:
         file.write("payload:\n")
-        file.write(content)
+        for line in content:
+            file.write(f"  {line}\n")
 
     if original_line_count == 0:
         print(f"{filename}: Creating {new_line_count}")
+    elif original_line_count != new_line_count:
+        print(f"{filename}: Previously {original_line_count} Updated to {new_line_count}")
+        print(f"{filename}: ###################")
+        print(f"{filename}: ##### Updated #####")
+        print(f"{filename}: ###################")
     else:
-        if original_line_count != new_line_count + 2:
-            print(f"{filename}: Previously {original_line_count} Updated to {new_line_count}")
-            if new_line_count != original_line_count:
-                print(f"{filename}: ###################")
-                print(f"{filename}: ##### Updated #####")
-                print(f"{filename}: ###################")
-        else:
-            print(f"{filename}: No change has been found")
+        print(f"{filename}: No change has been found")
 
 def main():
-    # URL分类及合并数据
     categories = {
         'LocalAreaNetwork': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
@@ -192,7 +175,7 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml"
         ]
     }
-
+    
     session = requests.Session()
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504])
     session.mount('https://', HTTPAdapter(max_retries=retries))
@@ -202,12 +185,9 @@ def main():
         content = download_and_process(urls, session)
         file_path = f'{category}.yaml'
         save_to_file(content, file_path)
-        print(" ")
-        print(" ")
+        print("\n")
 
-    print(" ")
-    print(" ")
-    print("Done")    
+    print("\nDone")
 
 if __name__ == "__main__":
     main()
