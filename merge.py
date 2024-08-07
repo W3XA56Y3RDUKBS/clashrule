@@ -31,15 +31,18 @@ def download_and_process(urls, session):
     return list(OrderedDict.fromkeys(all_lines))  # Remove duplicates while preserving order
 
 def save_to_file(content, filename):
+    # 修改文件路径
+    file_path = os.path.join('./rules', filename)
+    
     new_line_count = len(content)
     original_line_count = 0
 
-    if os.path.exists(filename):
-        with open(filename, 'r') as file:
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
             original_line_count = sum(1 for _ in file) - 1  # Subtract 1 for the "payload:" line
         print(f"{filename}: Exist, Checking updates")
 
-    with open(filename, 'w') as file:
+    with open(file_path, 'w') as file:
         file.write("payload:\n")
         for line in content:
             file.write(f"  {line}\n")
@@ -55,6 +58,9 @@ def save_to_file(content, filename):
         print(f"{filename}: No change has been found")
 
 def main():
+    # 确保 ./rules/ 目录存在
+    if not os.path.exists('./rules'):
+        os.makedirs('./rules')
     categories = {
         'LocalAreaNetwork': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
@@ -173,8 +179,7 @@ def main():
     for category, urls in categories.items():
         print(f"--- Processing {category} ---")
         content = download_and_process(urls, session)
-        file_path = f'{category}.yaml'
-        save_to_file(content, file_path)
+        save_to_file(content, f'{category}.yaml')
         print("\n")
 
     print("\nDone")
