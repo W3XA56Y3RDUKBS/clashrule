@@ -2,7 +2,7 @@ name: Scheduled Script Run
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -24,7 +24,14 @@ jobs:
     - name: Run the script
       run: python merge.py
 
+    - name: Check for changes
+      id: git-check
+      run: |
+        git status --porcelain
+        echo "::set-output name=modified::$(if git status --porcelain | grep .; then echo true; else echo false; fi)"
+
     - name: Commit files
+      if: steps.git-check.outputs.modified == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -32,7 +39,12 @@ jobs:
         git commit -m "Update merged file" -a
 
     - name: Push changes
+      if: steps.git-check.outputs.modified == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
+
+    - name: No changes
+      if: steps.git-check.outputs.modified == 'false'
+      run: echo "No changes to commit"
