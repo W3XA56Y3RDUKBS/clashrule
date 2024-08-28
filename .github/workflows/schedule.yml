@@ -30,20 +30,18 @@ jobs:
         git status --porcelain
         echo "::set-output name=modified::$(if git status --porcelain | grep .; then echo true; else echo false; fi)"
 
-    - name: Commit files
-      if: steps.git-check.outputs.modified == 'true'
+    - name: Commit and Push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git commit -m "Update merged file" -a
-
-    - name: Push changes
-      if: steps.git-check.outputs.modified == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
+        git status
+        git commit -m "Update merged file" -a || echo "No changes to commit"
+        git push || echo "Push failed"
+        echo "Current branch:"
+        git branch --show-current
+        echo "Latest commit:"
+        git log -1
 
     - name: No changes
       if: steps.git-check.outputs.modified == 'false'
