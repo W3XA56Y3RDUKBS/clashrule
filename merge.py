@@ -41,11 +41,15 @@ def save_to_file(content, filename):
         with open(file_path, 'r') as file:
             original_line_count = sum(1 for _ in file) - 1  # Subtract 1 for the "payload:" line
         print(f"{filename}: Exist, Checking updates")
-
-    with open(file_path, 'w') as file:
-        file.write("payload:\n")
-        for line in content:
-            file.write(f"  {line}\n")
+    try:
+        with open(file_path, 'w') as file:
+            file.write("payload:\n")
+            for line in content:
+                file.write(f"  {line}\n")
+        print(f"Successfully wrote to {file_path}")
+    except Exception as e:
+        print(f"Error writing to {file_path}: {e}")
+    
 
     if original_line_count == 0:
         print(f"{filename}: Creating {new_line_count}")
