@@ -117,6 +117,7 @@ payload:
   - DOMAIN-SUFFIX,kaola.com
   - DOMAIN-SUFFIX,knewone.com
   - DOMAIN-SUFFIX,koowo.com
+  - DOMAIN-SUFFIX,koyso.com
   - DOMAIN-SUFFIX,ksyungslb.com
   - DOMAIN-SUFFIX,kuaidi100.com
   - DOMAIN-SUFFIX,kugou.com
@@ -605,6 +606,8 @@ payload:
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,udache.com
+  - DOMAIN-SUFFIX,bytefcdnrd.com
+  - DOMAIN-SUFFIX,edgesrv.com
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyuscdn.com
@@ -785,3 +788,4 @@ payload:
   - DOMAIN-KEYWORD,oddba
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,llnwd.net
+  - IP-CIDR,20.42.97.82/32

@@ -14,3 +14,4 @@ payload:
   - DOMAIN-KEYWORD,oddba
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,llnwd.net
+  - IP-CIDR,20.42.97.82/32
