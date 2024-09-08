@@ -170,6 +170,9 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ClaudeAI.yaml",
             "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Anthropic/Anthropic.yaml"
         ],
+        'decipher': [
+            "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/decipher.yaml"
+        ],
         'TikTok': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml",
             "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TikTok/TikTok.yaml"
