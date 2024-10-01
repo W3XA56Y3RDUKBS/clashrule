@@ -64208,7 +64208,6 @@ payload:
   - '+.app.payon.mn'
   - '+.epl.paypal-communication.com'
   - '+.sstats.paypal-metrics.com'
-  - '+.c.paypal.com'
   - '+.data.news.paypal.com'
   - '+.data.service.paypal.com'
   - '+.i.paypal.com'
