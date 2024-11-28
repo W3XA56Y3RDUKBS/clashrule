@@ -887,18 +887,31 @@ payload:
   - IP-CIDR,177.71.207.128/26,no-resolve
   - IP-CIDR,204.246.166.0/24,no-resolve
   - IP-CIDR,205.251.218.0/24,no-resolve
-  - DOMAIN-SUFFIX,netflix.ca
-  - DOMAIN-SUFFIX,netflixinvestor.com
-  - DOMAIN-SUFFIX,netflixtechblog.com
-  - DOMAIN-SUFFIX,nflxsearch.net
-  - DOMAIN-SUFFIX,netflix.com.edgesuite.net
+  - DOMAIN-SUFFIX, fast.com
+  - DOMAIN-SUFFIX, netflix.ca
+  - DOMAIN-SUFFIX, netflix.com
+  - DOMAIN-SUFFIX, netflix.net
+  - DOMAIN-SUFFIX, netflixinvestor.com
+  - DOMAIN-SUFFIX, netflixtechblog.com
+  - DOMAIN-SUFFIX, nflxext.com
+  - DOMAIN-SUFFIX, nflximg.com
+  - DOMAIN-SUFFIX, nflximg.net
+  - DOMAIN-SUFFIX, nflxsearch.net
+  - DOMAIN-SUFFIX, nflxso.net
+  - DOMAIN-SUFFIX, nflxvideo.net
+  - DOMAIN-SUFFIX, netflix.com.edgesuite.net
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
   - DOMAIN-SUFFIX,cookielaw.org
   - DOMAIN-SUFFIX,flxvpn.net
+  - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com.au
+  - DOMAIN-SUFFIX,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,netflixdnstest10.com
+  - DOMAIN-SUFFIX,netflixinvestor.com
   - DOMAIN-SUFFIX,netflixstudios.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
+  - DOMAIN-SUFFIX,nflxsearch.net
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
