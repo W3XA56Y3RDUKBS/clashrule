@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,coursera
   - DOMAIN-KEYWORD,busuu
   - DOMAIN-SUFFIX,note.ms
+  - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,support.parsec.app
   - DOMAIN-KEYWORD,sp-tarkov
