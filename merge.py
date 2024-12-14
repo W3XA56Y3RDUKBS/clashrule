@@ -178,6 +178,10 @@ def main():
         'decipher': [
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/decipher.yaml"
         ],
+        'upload': [
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Baidu.yaml",
+            "https://raw.githubusercontent.com/W3XA56Y3RDUKBS/clashrule/refs/heads/main/rules/upload.yaml"
+        ],
         'TikTok': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml",
             "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TikTok/TikTok.yaml"
