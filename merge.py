@@ -182,6 +182,9 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Baidu.yaml",
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/upload.yaml"
         ],
+        'BlockList': [
+            "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/BlockList.yaml"
+        ],
         'TikTok': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml",
             "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TikTok/TikTok.yaml"
