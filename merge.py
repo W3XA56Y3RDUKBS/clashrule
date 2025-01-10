@@ -149,7 +149,7 @@ def main():
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
         ],
         'VPS': [
-            "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/vps.yaml
+            "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/vps.yaml"
         ],
         'UnBan': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
