@@ -1,24 +1,24 @@
 payload:
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,intercom.io
-  # 内容：OpenAi
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-KEYWORD,openai
-  # 内容：Claude
-  - DOMAIN-SUFFIX,oaiusercontent.com
   # 数量：2条
-  # 数量：16条
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,servd-anthropic-website.b-cdn.net
-  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  # 内容：Claude
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  # 数量：16条
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,identrust.com
+  # 内容：OpenAi
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
