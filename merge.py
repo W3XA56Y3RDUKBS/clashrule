@@ -3,10 +3,12 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import os
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
 
 def download_file(session, url):
     try:
-        response = session.get(url)
+        response = session.get(url, timeout=10)
         response.raise_for_status()
         return response.text
     except requests.RequestException as e:
@@ -14,21 +16,18 @@ def download_file(session, url):
         return None
 
 def process_content(content):
-    lines = content.split('\n')
-    processed_lines = []
-    for line in lines:
-        line = line.strip()
-        if line and not line.startswith('#') and line != "payload:":
-            processed_lines.append(line)
-    return processed_lines
+    return [line.strip() for line in content.split('\n') 
+            if line.strip() and not line.startswith('#') and line != "payload:"]
 
 def download_and_process(urls, session):
-    all_lines = []
-    for url in urls:
-        content = download_file(session, url)
-        if content:
-            all_lines.extend(process_content(content))
-    return list(OrderedDict.fromkeys(all_lines))  # Remove duplicates while preserving order
+    all_lines = set()  # Using set for faster duplicate removal
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_url = {executor.submit(download_file, session, url): url for url in urls}
+        for future in as_completed(future_to_url):
+            content = future.result()
+            if content:
+                all_lines.update(process_content(content))
+    return list(all_lines)  # Convert back to list to maintain compatibility
 
 def save_to_file(content, filename):
     # 修改文件路径
@@ -61,7 +60,20 @@ def save_to_file(content, filename):
     else:
         print(f"{filename}: No change has been found")
 
+def create_session():
+    session = requests.Session()
+    retries = Retry(
+        total=5,
+        backoff_factor=0.5,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount('https://', HTTPAdapter(max_retries=retries, pool_connections=20, pool_maxsize=20))
+    return session
+
 def main():
+    start_time = time.time()
+    
     # 确保 ./rules/ 目录存在
     if not os.path.exists('./rules'):
         os.makedirs('./rules')
@@ -189,9 +201,7 @@ def main():
         ]
     }
     
-    session = requests.Session()
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504])
-    session.mount('https://', HTTPAdapter(max_retries=retries))
+    session = create_session()
 
     for category, urls in categories.items():
         print(f"--- Processing {category} ---")
@@ -199,7 +209,7 @@ def main():
         save_to_file(content, f'{category}.yaml')
         print("\n")
 
-    print("\nDone")
+    print(f"\nDone! Total execution time: {time.time() - start_time:.2f} seconds")
 
 if __name__ == "__main__":
     main()
