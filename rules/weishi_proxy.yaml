@@ -1,13 +1,13 @@
 payload:
+  - DOMAIN-KEYWORD,docker
+  - DOMAIN-SUFFIX,support.parsec.app
+  - DOMAIN-KEYWORD,booking
+  - DOMAIN-KEYWORD,busuu
   - DOMAIN-KEYWORD,coursera
-  # Proxy
-  - DOMAIN-SUFFIX,paoluz.link
   - DOMAIN-KEYWORD,parsec
-  - DOMAIN-SUFFIX,note.ms
   - DOMAIN-SUFFIX,download.synology.com
   - DOMAIN-KEYWORD,linkedin
-  - DOMAIN-SUFFIX,support.parsec.app
-  - DOMAIN-KEYWORD,docker
-  - DOMAIN-KEYWORD,busuu
+  - DOMAIN-SUFFIX,paoluz.link
+  - DOMAIN-SUFFIX,note.ms
+  # Proxy
   - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-KEYWORD,booking

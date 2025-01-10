@@ -1,16 +1,17 @@
 payload:
-  - DOMAIN-SUFFIX,4.ipw.cn
-  - DOMAIN-SUFFIX,6.ipw.cn
-  - DOMAIN-SUFFIX,ddns.oray.com
   - DOMAIN-KEYWORD,cloudflarestorage
-  - DOMAIN-KEYWORD,weishi
   - DOMAIN-KEYWORD,parsec
-  - DOMAIN-SUFFIX,myddns.rocks
-  - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN-SUFFIX,myqnapcloud.cn
-  - DOMAIN-KEYWORD,cmdw
-  - DOMAIN-SUFFIX,tailscale.com
-  - DOMAIN-SUFFIX,speed.neu6.edu.cn
-  - DOMAIN-SUFFIX,qq.com
   - DOMAIN-KEYWORD,oddba
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,myqnapcloud.com
+  - DOMAIN-SUFFIX,ddns.oray.com
+  - DOMAIN-SUFFIX,speed.neu6.edu.cn
+  - DOMAIN-KEYWORD,cmdw
+  - DOMAIN-SUFFIX,6.ipw.cn
   - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-KEYWORD,douyinvod
+  - DOMAIN-KEYWORD,weishi
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,myqnapcloud.cn
+  - DOMAIN-SUFFIX,myddns.rocks
+  - DOMAIN-SUFFIX,4.ipw.cn
