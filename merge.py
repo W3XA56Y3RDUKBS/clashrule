@@ -108,6 +108,9 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Apple.yaml",
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/proxy.yaml"
         ],
+        'weishi_proxy': [
+            "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/proxy.yaml"
+        ],
         'Netflix': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetflixIP.yaml",
