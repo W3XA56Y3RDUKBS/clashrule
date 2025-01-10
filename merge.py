@@ -133,7 +133,6 @@ def main():
         ],
         'GameDownload': [
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/GameDownload.yaml",
-            "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
         ],
@@ -153,33 +152,32 @@ def main():
             "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
         ],
         'openAI': [
-            "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/OpenAI.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Claude.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ClaudeAI.yaml",
-            "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Anthropic/Anthropic.yaml"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic/Anthropic.yaml"
         ],
         'Microsoft': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml",
-            "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Microsoft/Microsoft.yaml"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
         ],
         'OneDrive': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml",
-            "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/OneDrive/OneDrive.yaml"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml"
         ],
         'pdr': [
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/pdr.yaml",
-            "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/OpenAI.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Claude.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ClaudeAI.yaml",
-            "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Anthropic/Anthropic.yaml"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic/Anthropic.yaml"
         ],
         'decipher': [
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/main/rules/decipher.yaml"
         ],
         'upload': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Baidu.yaml",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
             "https://raw.githubusercontent.com/weishicheung/Clash-rule/refs/heads/main/rules/upload.yaml"
         ],
         'BlockList': [
@@ -187,7 +185,7 @@ def main():
         ],
         'TikTok': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml",
-            "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TikTok/TikTok.yaml"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml"
         ]
     }
     
