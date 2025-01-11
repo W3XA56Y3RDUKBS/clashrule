@@ -1,40 +1,40 @@
 payload:
-  - IP-CIDR6,fe80::/10,no-resolve
-  - IP-CIDR,127.0.0.0/8,no-resolve
-  - DOMAIN-SUFFIX,miwifi.com
-  # Router managed 路由器管理域名
-  - IP-CIDR6,::1/128,no-resolve
-  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-  - DOMAIN-SUFFIX,leike.cc
-  - IP-CIDR,10.0.0.0/8,no-resolve
-  - DOMAIN-SUFFIX,lan
-  - DOMAIN-SUFFIX,hiwifi.com
-  - DOMAIN-SUFFIX,peiluyou.com
-  - IP-CIDR6,fc00::/7,no-resolve
-  - DOMAIN-SUFFIX,ip6-loopback
-  - IP-CIDR6,fd00::/8,no-resolve
-  - DOMAIN,instant.arubanetworks.com
-  - IP-CIDR,224.0.0.0/4,no-resolve
-  - DOMAIN,www.asusrouter.com
-  - DOMAIN-SUFFIX,acl4.ssr
-  - DOMAIN-SUFFIX,routerlogin.com
   - IP-CIDR,198.18.0.0/16,no-resolve
-  - DOMAIN-SUFFIX,zte.home
-  # 本地/局域网地址
-  - DOMAIN-SUFFIX,ip6-localhost
-  - IP-CIDR,172.16.0.0/12,no-resolve
-  - DOMAIN-SUFFIX,local
-  - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN-SUFFIX,phicomm.me
-  - IP-CIDR,0.0.0.0/8,no-resolve
-  - DOMAIN-SUFFIX,wifi.cmcc
-  - DOMAIN-SUFFIX,router.ctc
-  - IP-CIDR,100.64.0.0/10,no-resolve
-  - IP-CIDR,192.168.0.0/16,no-resolve
-  - DOMAIN-SUFFIX,tplogin.cn
-  # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-  - DOMAIN-SUFFIX,localhost
-  - DOMAIN-SUFFIX,tendawifi.com
-  - DOMAIN-SUFFIX,my.router
-  - DOMAIN,router.asus.com
+  - IP-CIDR6,fd00::/8,no-resolve
   - DOMAIN-SUFFIX,p.to
+  - IP-CIDR6,fe80::/10,no-resolve
+  - IP-CIDR,224.0.0.0/4,no-resolve
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  # 本地/局域网地址
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN-SUFFIX,ip6-loopback
+  - DOMAIN-SUFFIX,lan
+  # Router managed 路由器管理域名
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN,router.asus.com
+  - DOMAIN-SUFFIX,router.ctc
+  - IP-CIDR6,::1/128,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,routerlogin.com
+  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,tplogin.cn
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,ip6-localhost
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,wifi.cmcc
+  - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN-SUFFIX,leike.cc
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
+  - DOMAIN-SUFFIX,acl4.ssr
+  - IP-CIDR6,fc00::/7,no-resolve
+  - DOMAIN-SUFFIX,peiluyou.com
+  - DOMAIN-SUFFIX,zte.home
+  - DOMAIN-SUFFIX,my.router
