@@ -1,58 +1,58 @@
 payload:
-  - DOMAIN-SUFFIX,steampipe.akamaized.net
-  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
   - DOMAIN-SUFFIX,cache6-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cache7-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cache1-par1.steamcontent.com
-  - DOMAIN,origin-a.akamaihd.net
-  - DOMAIN-SUFFIX,cache12-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cache11-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cache2-par1.steamcontent.com
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com
-  - DOMAIN,assets1.xboxlive.cn
-  - DOMAIN,cdn-ali.content.steamchina.com
-  - DOMAIN-SUFFIX,level3.ssl.blizzard.com
-  - DOMAIN,download2.epicgames.com
-  - DOMAIN,epicgames-download1.akamaized.net
-  - DOMAIN,packagespc.xboxlive.com
+  # 数量：20条
+  - DOMAIN,download.hikarifield.co.jp
+  - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
+  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN,cdn-qc.content.steamchina.com
+  # 内容：GameDownload
+  - DOMAIN,assets2.xboxlive.cn
+  - DOMAIN,download.cdp.bethesda.net
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,cache9-par1.steamcontent.com
   - DOMAIN,xvcf1.xboxlive.com
+  - DOMAIN-SUFFIX,cache13-par1.steamcontent.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,cache8-par1.steamcontent.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,assets1.xboxlive.com
+  - DOMAIN,epicgames-download1.akamaized.net
+  - DOMAIN-SUFFIX,dl.playstation.net
+  - DOMAIN-SUFFIX,dyn.riotcdn.net
+  - DOMAIN-SUFFIX,cache1-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache7-par1.steamcontent.com
   - DOMAIN-SUFFIX,cache14-par1.steamcontent.com
   - DOMAIN,dl.delivery.mp.microsoft.com
+  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,cache12-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cdn.blizzard.com
+  - DOMAIN-SUFFIX,cache2-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache3-par1.steamcontent.com
+  - DOMAIN,tlu.dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,cache11-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache4-par1.steamcontent.com
+  - DOMAIN,ssl-lvlt.cdn.ea.com
+  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN,packagespc.xboxlive.com
+  - DOMAIN,xvcf2.xboxlive.com
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,cache5-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cdn.ubi.com
+  - DOMAIN,assets2.xboxlive.com
+  - DOMAIN,assets1.xboxlive.cn
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
   - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
-  - DOMAIN-SUFFIX,cache13-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cdn.ubi.com
-  - DOMAIN,download.hikarifield.co.jp
-  - DOMAIN,gog-cdn-lumen.secure2.footprint.net
-  - DOMAIN,download.epicgames.com
-  - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
-  - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,assets2.xboxlive.com
-  - DOMAIN,st.dl.eccdnx.com
-  - DOMAIN-SUFFIX,cache3-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cache8-par1.steamcontent.com
-  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
-  - DOMAIN-SUFFIX,dyn.riotcdn.net
-  - DOMAIN,cdn-ws.content.steamchina.com
-  - DOMAIN,client.hikarifield.co.jp
-  - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
-  - DOMAIN-SUFFIX,cache4-par1.steamcontent.com
-  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,level3.ssl.blizzard.com
   - DOMAIN,trts.baishancdnx.cn
-  # 数量：20条
-  - DOMAIN,cdn-qc.content.steamchina.com
-  - DOMAIN,dl.steam.clngaa.com
-  - DOMAIN-SUFFIX,cache5-par1.steamcontent.com
-  - DOMAIN-SUFFIX,cdn.blizzard.com
-  - DOMAIN,download4.epicgames.com
-  - DOMAIN,tlu.dl.delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,cache9-par1.steamcontent.com
-  - DOMAIN,xvcf2.xboxlive.com
-  - DOMAIN,assets2.xboxlive.cn
-  - DOMAIN-SUFFIX,dl.playstation.net
-  # 内容：GameDownload
+  - DOMAIN,cdn-ws.content.steamchina.com
+  - DOMAIN,cdn-ali.content.steamchina.com
   - DOMAIN,download3.epicgames.com
-  - DOMAIN,assets1.xboxlive.com
+  - DOMAIN,download.epicgames.com
+  - DOMAIN,download4.epicgames.com
+  - DOMAIN,gog-cdn-lumen.secure2.footprint.net
+  - DOMAIN,client.hikarifield.co.jp
+  - DOMAIN,st.dl.eccdnx.com
   - DOMAIN-SUFFIX,cache10-par1.steamcontent.com
-  - DOMAIN,ssl-lvlt.cdn.ea.com
-  - DOMAIN,download.cdp.bethesda.net
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,download2.epicgames.com
