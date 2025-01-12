@@ -1,32 +1,32 @@
 payload:
-  # Strava
-  - DOMAIN,tracking.miui.com
-  - DOMAIN,bdtj.tagtic.cn
-  # Google
-  # Mozilla
-  # Origin
-  # Umeng
-  # Miui 小米
-  # Unbreak 白名单 不应该被广告链接的网站
-  - DOMAIN,msg.umengcloud.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
-  - DOMAIN,origin-a.akamaihd.net
-  # Koodo Mobile
-  - DOMAIN-SUFFIX,koodomobile.ca
-  # Getui
-  - DOMAIN-SUFFIX,dizhensubao.getui.com
-  # Hypixel Network
-  # General
-  - DOMAIN,errlog.umeng.com
-  - DOMAIN-SUFFIX,ol.epicgames.com
-  - DOMAIN,rewards.hypixel.net
-  - DOMAIN,msg.umeng.com
-  # Epicgames
-  - DOMAIN-SUFFIX,koodomobile.com
-  # Tencent
-  - DOMAIN,livew.l.qq.com
-  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
-  - DOMAIN,app.adjust.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,vd.l.qq.com
   - DOMAIN,fairplay.l.qq.com
+  # Hypixel Network
+  # Tencent
+  - DOMAIN,rewards.hypixel.net
+  - DOMAIN,errlog.umeng.com
+  - DOMAIN,livew.l.qq.com
+  - DOMAIN,vd.l.qq.com
+  # Koodo Mobile
+  - DOMAIN,tracking.miui.com
+  - DOMAIN,app.adjust.com
+  - DOMAIN,bdtj.tagtic.cn
+  # Strava
+  - DOMAIN,origin-a.akamaihd.net
+  # Getui
+  - DOMAIN-SUFFIX,ol.epicgames.com
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+  # Unbreak 白名单 不应该被广告链接的网站
+  - DOMAIN-SUFFIX,koodomobile.ca
+  - DOMAIN,msg.umengcloud.com
+  # General
+  # Umeng
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  # Google
+  - DOMAIN-SUFFIX,koodomobile.com
+  # Origin
+  # Miui 小米
+  - DOMAIN,msg.umeng.com
+  # Mozilla
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  # Epicgames
+  - DOMAIN,dl.google.com
