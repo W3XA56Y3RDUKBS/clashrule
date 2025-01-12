@@ -1,33 +1,33 @@
 payload:
-  - DOMAIN-SUFFIX,capcut.com
-  - DOMAIN-KEYWORD,tiktokcdn
-  - DOMAIN-KEYWORD,tiktok
-  - DOMAIN-SUFFIX,ttwebview.com
-  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-  - DOMAIN-SUFFIX,byteoversea.com
-  - PROCESS-NAME,com.zhiliaoapp.musically
-  - DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-KEYWORD,musical.ly
-  - DOMAIN-SUFFIX,musical.ly
-  # USER-AGENT,TikTok*
-  # 数量：11条
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,tiktokd.net
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,tiktokmusic.app
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,tiktok.com
-  # 内容：TikTok
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN-SUFFIX,snssdk.com
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-KEYWORD,tiktokcdn
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN-KEYWORD,tiktok
+  # 内容：TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-SUFFIX,ttwebview.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokv.us
+  # 数量：11条
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktok.com
+  # USER-AGENT,TikTok*
