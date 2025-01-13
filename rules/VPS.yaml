@@ -1,6 +1,6 @@
 payload:
-  - DOMAIN-SUFFIX,eft-store.com
   - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-KEYWORD,sony
   - DOMAIN-KEYWORD,sp-tarkov
+  - DOMAIN-KEYWORD,sony
+  - DOMAIN-SUFFIX,eft-store.com
   - DOMAIN-KEYWORD,playstation
