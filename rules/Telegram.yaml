@@ -1,65 +1,65 @@
 payload:
-  - IP-CIDR,91.105.192.0/23,no-resolve
-  - DOMAIN-SUFFIX,telegram.org
-  - IP-ASN,62014
-  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
-  - PROCESS-NAME,telegram-desktop
-  - DOMAIN,api.imem.app
-  - DOMAIN-SUFFIX,legra.ph
+  - DOMAIN-SUFFIX,telegram.dog
   # 内容：Telegram
-  - DOMAIN-SUFFIX,tg.dev
-  - DOMAIN-SUFFIX,stel.com
-  - IP-CIDR,5.28.192.0/18
-  # 数量：14条
   - IP-ASN,44907
-  - IP-ASN,211157
+  - IP-CIDR6,2001:b28:f23f::/48
   - DOMAIN-SUFFIX,t.me
-  - IP-CIDR,91.108.56.0/22,no-resolve
-  - DOMAIN-SUFFIX,telega.one
-  - IP-CIDR,91.108.0.0/16
-  - PROCESS-NAME,org.telegram.messenger
-  - DOMAIN,api.swiftgram.app
-  - DOMAIN-SUFFIX,graph.org
-  - IP-CIDR,91.108.4.0/22,no-resolve
+  - DOMAIN-SUFFIX,telegramdownload.com
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telesco.pe
+  - IP-ASN,59930
   - DOMAIN-SUFFIX,tx.me
+  - IP-CIDR,91.108.0.0/16
+  - IP-CIDR6,2001:b28:f23c::/47
+  - DOMAIN-SUFFIX,legra.ph
+  - PROCESS-NAME,nekox.messenger
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,telegram.me
+  - IP-ASN,211157
+  - IP-CIDR,149.154.160.0/20
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
+  - DOMAIN-SUFFIX,telega.one
+  - PROCESS-NAME,tw.nekomimi.nekogram
+  - IP-CIDR6,2a0a:f280::/29
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  # 数量：14条
+  - IP-CIDR,5.28.192.0/18
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,graph.org
   - DOMAIN-SUFFIX,telegra.ph
   - IP-CIDR6,2a0a:f280::/32,no-resolve
-  - DOMAIN-SUFFIX,comments.app
-  - DOMAIN-SUFFIX,telegramdownload.com
-  - DOMAIN-SUFFIX,telesco.pe
-  - DOMAIN-SUFFIX,telegram.dog
-  - IP-CIDR6,2001:67c:4e8::/48
-  - DOMAIN-SUFFIX,usercontent.dev
-  - PROCESS-NAME,nekox.messenger
-  - IP-CIDR,91.108.20.0/22,no-resolve
-  - IP-CIDR6,2a0a:f280::/29
-  - IP-CIDR,91.108.12.0/22,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
-  - PROCESS-NAME,xyz.nextalone.nagram
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - DOMAIN-SUFFIX,telegram-cdn.org
-  - PROCESS-NAME,Telegram.exe
-  - IP-CIDR,149.154.160.0/20,no-resolve
-  - IP-CIDR,91.108.16.0/22,no-resolve
-  - IP-CIDR,95.161.64.0/20,no-resolve
-  - DOMAIN-KEYWORD,nicegram
-  - IP-ASN,59930
-  - DOMAIN-SUFFIX,tdesktop.com
-  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
-  - IP-ASN,62041
-  - IP-CIDR,185.76.151.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20
-  - DOMAIN-SUFFIX,quiz.directory
-  - IP-CIDR6,2001:b28:f23c::/47
-  - DOMAIN-KEYWORD,telegram
-  - DOMAIN-SUFFIX,contest.com
   - IP-CIDR,91.108.8.0/22,no-resolve
-  - DOMAIN-SUFFIX,cdn-telegram.org
-  - IP-CIDR6,2001:b28:f23f::/48
-  - DOMAIN-SUFFIX,mbrx.app
-  - IP-CIDR,109.239.140.0/24
-  - DOMAIN-SUFFIX,telegram.me
-  # > Telegram
-  - DOMAIN-SUFFIX,telegram.space
-  - PROCESS-NAME,tw.nekomimi.nekogram
+  - PROCESS-NAME,Telegram.exe
+  - DOMAIN-SUFFIX,contest.com
+  - IP-CIDR,185.76.151.0/24,no-resolve
+  - DOMAIN-SUFFIX,comments.app
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - DOMAIN-SUFFIX,telegram.org
   - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
+  - DOMAIN-SUFFIX,stel.com
+  - IP-CIDR,91.105.192.0/23,no-resolve
+  - DOMAIN-SUFFIX,telegram.space
+  - IP-ASN,62014
+  - IP-CIDR,109.239.140.0/24
+  - DOMAIN-SUFFIX,mbrx.app
+  - PROCESS-NAME,telegram-desktop
+  - DOMAIN-SUFFIX,quiz.directory
+  - PROCESS-NAME,xyz.nextalone.nagram
+  - DOMAIN,api.imem.app
+  - IP-CIDR6,2001:67c:4e8::/48
+  - PROCESS-NAME,org.telegram.messenger
+  # > Telegram
+  - IP-ASN,62041
+  - DOMAIN,api.swiftgram.app
+  - DOMAIN-SUFFIX,usercontent.dev
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,91.108.20.0/22,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - DOMAIN-SUFFIX,tg.dev
+  - DOMAIN-KEYWORD,nicegram
+  - IP-CIDR,91.108.0.0/16,no-resolve
+  - DOMAIN-KEYWORD,telegram
